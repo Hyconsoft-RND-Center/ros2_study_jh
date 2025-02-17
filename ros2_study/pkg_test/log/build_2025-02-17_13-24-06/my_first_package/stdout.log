@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing my_first_package.egg-info/PKG-INFO
+writing dependency_links to my_first_package.egg-info/dependency_links.txt
+writing entry points to my_first_package.egg-info/entry_points.txt
+writing requirements to my_first_package.egg-info/requires.txt
+writing top-level names to my_first_package.egg-info/top_level.txt
+reading manifest file 'my_first_package.egg-info/SOURCES.txt'
+writing manifest file 'my_first_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hycon/workspace/ros2_study/pkg_test/install/my_first_package/lib/python3.10/site-packages/my-first-package.egg-link (link to .)
+Installing my_first_node = my_first_package.my_first_node:mainmy_subscriber script to /home/hycon/workspace/ros2_study/pkg_test/install/my_first_package/lib/my_first_package
+
+Installed /home/hycon/workspace/ros2_study/pkg_test/build/my_first_package
+running symlink_data
+symbolically linking /home/hycon/workspace/ros2_study/pkg_test/build/my_first_package/resource/my_first_package -> /home/hycon/workspace/ros2_study/pkg_test/install/my_first_package/share/ament_index/resource_index/packages
+symbolically linking /home/hycon/workspace/ros2_study/pkg_test/build/my_first_package/package.xml -> /home/hycon/workspace/ros2_study/pkg_test/install/my_first_package/share/my_first_package

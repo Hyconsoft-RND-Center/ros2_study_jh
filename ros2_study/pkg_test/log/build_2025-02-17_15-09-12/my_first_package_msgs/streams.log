@@ -1,0 +1,55 @@
+[0.008s] Invoking command in '/home/hycon/workspace/ros2_study/pkg_test/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hycon/workspace/ros2_study/pkg_test/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/ros2_study/pkg_test/build/my_first_package_msgs -- -j16 -l16
+[0.029s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.136s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.139s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.324s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.324s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.324s]   my_first_package_msgs --arguments-file
+[0.325s]   /home/hycon/workspace/ros2_study/pkg_test/build/my_first_package_msgs/rosidl_adapter__arguments__my_first_package_msgs.json
+[0.325s]   --output-dir
+[0.325s]   /home/hycon/workspace/ros2_study/pkg_test/build/my_first_package_msgs/rosidl_adapter/my_first_package_msgs
+[0.325s]   --output-file
+[0.325s]   /home/hycon/workspace/ros2_study/pkg_test/build/my_first_package_msgs/rosidl_adapter/my_first_package_msgs.idls)
+[0.325s]   returned error code 1:
+[0.325s] 
+[0.325s]   Error processing 'init num' of 'my_first_package_msgs/MultiSpawn_Request':
+[0.325s]   ''init' is an invalid message name.  It should have the pattern
+[0.325s]   '^[A-Z][A-Za-z0-9]*$''
+[0.325s] 
+[0.325s]   Traceback (most recent call last):
+[0.325s] 
+[0.325s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.325s]       return _run_code(code, main_globals, None,
+[0.325s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.326s]       exec(code, run_globals)
+[0.326s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.326s]       sys.exit(main())
+[0.326s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.326s]       abs_idl_file = convert_to_idl(
+[0.326s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.326s]       return convert_srv_to_idl(
+[0.326s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.326s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.326s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.326s]       request_message = parse_message_string(
+[0.326s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.326s]       Type(type_string, context_package_name=pkg_name),
+[0.326s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[0.326s]       super(Type, self).__init__(
+[0.326s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.326s]       raise InvalidResourceName(
+[0.326s] 
+[0.326s]   rosidl_adapter.parser.InvalidResourceName: 'init' is an invalid message
+[0.326s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.326s] 
+[0.326s] Call Stack (most recent call first):
+[0.326s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.326s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.326s] 
+[0.326s] [0m
+[0.326s] -- Configuring incomplete, errors occurred!
+[0.326s] See also "/home/hycon/workspace/ros2_study/pkg_test/build/my_first_package_msgs/CMakeFiles/CMakeOutput.log".
+[0.328s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.330s] Invoked command in '/home/hycon/workspace/ros2_study/pkg_test/build/my_first_package_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hycon/workspace/ros2_study/pkg_test/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/ros2_study/pkg_test/build/my_first_package_msgs -- -j16 -l16
