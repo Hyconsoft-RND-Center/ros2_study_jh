@@ -1,0 +1,21 @@
+[0.009s] Invoking command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp -- -j16 -l16
+[0.087s] [ 22%] [32mBuilding CXX object CMakeFiles/turtlesim_cmd_and_pose.dir/src/turtlesim_cmd_and_pose.cpp.o[0m
+[0.087s] [ 22%] [32mBuilding CXX object CMakeFiles/turtlesim_cmd_and_pose.dir/src/main_cmd_and_pose.cpp.o[0m
+[0.094s] [ 55%] Built target turtlesim_publisher
+[0.101s] [ 88%] Built target turtlesim_subscriber
+[0.211s] In file included from [01m[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_cmd_and_pose.cpp:1[m[K:
+[0.211s] [01m[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/include/pkg_test_cpp/turtlesim_cmd_and_pose.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kpkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp: No such file or directory
+[0.211s]     6 | #include [01;31m[K"pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp"[m[K
+[0.211s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.212s] compilation terminated.
+[0.218s] gmake[2]: *** [CMakeFiles/turtlesim_cmd_and_pose.dir/build.make:90: CMakeFiles/turtlesim_cmd_and_pose.dir/src/turtlesim_cmd_and_pose.cpp.o] Error 1
+[0.218s] gmake[2]: *** Waiting for unfinished jobs....
+[0.264s] In file included from [01m[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/main_cmd_and_pose.cpp:2[m[K:
+[0.265s] [01m[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/include/pkg_test_cpp/turtlesim_cmd_and_pose.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kpkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp: No such file or directory
+[0.265s]     6 | #include [01;31m[K"pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp"[m[K
+[0.265s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.265s] compilation terminated.
+[0.266s] gmake[2]: *** [CMakeFiles/turtlesim_cmd_and_pose.dir/build.make:76: CMakeFiles/turtlesim_cmd_and_pose.dir/src/main_cmd_and_pose.cpp.o] Error 1
+[0.266s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/turtlesim_cmd_and_pose.dir/all] Error 2
+[0.267s] gmake: *** [Makefile:146: all] Error 2
+[0.269s] Invoked command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp -- -j16 -l16

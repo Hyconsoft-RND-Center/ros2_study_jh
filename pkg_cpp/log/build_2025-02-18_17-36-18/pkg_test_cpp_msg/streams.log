@@ -1,0 +1,25 @@
+[0.008s] Invoking command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg -- -j16 -l16
+[0.030s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.155s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.156s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.158s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.379s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.539s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.742s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.765s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.791s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.791s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.791s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.803s] [31mCMake Error at CMakeLists.txt:19 (install):
+[0.803s]   install TARGETS given target "turtlesim_cmd_and_pose" which does not exist.
+[0.803s] 
+[0.803s] [0m
+[0.804s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.809s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.809s] -- Added test 'lint_cmake' to check CMake code style
+[0.810s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.811s] -- Added test 'xmllint' to check XML markup files
+[0.812s] -- Configuring incomplete, errors occurred!
+[0.812s] See also "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/CMakeFiles/CMakeOutput.log".
+[0.815s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1

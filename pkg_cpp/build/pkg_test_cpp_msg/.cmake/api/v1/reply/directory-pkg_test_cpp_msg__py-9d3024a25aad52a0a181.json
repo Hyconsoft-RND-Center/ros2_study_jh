@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pkg_test_cpp_msg__py",
+		"source" : "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/pkg_test_cpp_msg__py"
+	}
+}

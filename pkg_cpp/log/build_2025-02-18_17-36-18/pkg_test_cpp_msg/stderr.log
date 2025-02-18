@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:19 (install):
+  install TARGETS given target "turtlesim_cmd_and_pose" which does not exist.
+
+[0m
+gmake: *** [Makefile:747: cmake_check_build_system] Error 1

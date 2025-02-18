@@ -1,0 +1,4 @@
+[ 22%] [32mBuilding CXX object CMakeFiles/turtlesim_cmd_and_pose.dir/src/turtlesim_cmd_and_pose.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/turtlesim_cmd_and_pose.dir/src/main_cmd_and_pose.cpp.o[0m
+[ 55%] Built target turtlesim_publisher
+[ 88%] Built target turtlesim_subscriber

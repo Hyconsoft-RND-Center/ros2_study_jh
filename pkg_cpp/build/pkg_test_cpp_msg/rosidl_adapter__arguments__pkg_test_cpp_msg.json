@@ -1,0 +1,6 @@
+{
+  "package_name": "pkg_test_cpp_msg",
+  "non_idl_tuples": [
+    "/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp_msg:msg/CmdAndPoseVel.msg"
+  ]
+}
