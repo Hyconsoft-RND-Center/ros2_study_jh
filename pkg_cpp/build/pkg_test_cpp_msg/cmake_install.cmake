@@ -360,7 +360,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_test_cpp_msg/srv" TYPE FILE FILES "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_adapter/pkg_test_cpp_msg/srv/MultiSpawn.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_test_cpp_msg/msg" TYPE FILE FILES "/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp_msg/msg/CmdAndPoseVel.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_test_cpp_msg/srv" TYPE FILE FILES "/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp_msg/srv/MultiSpawn.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_test_cpp_msg/srv" TYPE FILE FILES "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_cmake/srv/MultiSpawn_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_test_cpp_msg/srv" TYPE FILE FILES "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_cmake/srv/MultiSpawn_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

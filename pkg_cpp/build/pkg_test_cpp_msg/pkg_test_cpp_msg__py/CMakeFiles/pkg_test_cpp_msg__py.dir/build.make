@@ -70,8 +70,11 @@ pkg_test_cpp_msg__py/CMakeFiles/pkg_test_cpp_msg__py: rosidl_generator_py/pkg_te
 pkg_test_cpp_msg__py/CMakeFiles/pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_introspection_c.c
 pkg_test_cpp_msg__py/CMakeFiles/pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_c.c
 pkg_test_cpp_msg__py/CMakeFiles/pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/msg/_cmd_and_pose_vel.py
+pkg_test_cpp_msg__py/CMakeFiles/pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/srv/_multi_spawn.py
 pkg_test_cpp_msg__py/CMakeFiles/pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/msg/__init__.py
+pkg_test_cpp_msg__py/CMakeFiles/pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/srv/__init__.py
 pkg_test_cpp_msg__py/CMakeFiles/pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/msg/_cmd_and_pose_vel_s.c
+pkg_test_cpp_msg__py/CMakeFiles/pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/srv/_multi_spawn_s.c
 
 rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +90,7 @@ rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_f
 rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pkg_test_cpp_msg/msg/CmdAndPoseVel.idl
+rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pkg_test_cpp_msg/srv/MultiSpawn.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/pkg_test_cpp_msg__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -99,11 +103,20 @@ rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_c
 rosidl_generator_py/pkg_test_cpp_msg/msg/_cmd_and_pose_vel.py: rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg_test_cpp_msg/msg/_cmd_and_pose_vel.py
 
+rosidl_generator_py/pkg_test_cpp_msg/srv/_multi_spawn.py: rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg_test_cpp_msg/srv/_multi_spawn.py
+
 rosidl_generator_py/pkg_test_cpp_msg/msg/__init__.py: rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg_test_cpp_msg/msg/__init__.py
 
+rosidl_generator_py/pkg_test_cpp_msg/srv/__init__.py: rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg_test_cpp_msg/srv/__init__.py
+
 rosidl_generator_py/pkg_test_cpp_msg/msg/_cmd_and_pose_vel_s.c: rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg_test_cpp_msg/msg/_cmd_and_pose_vel_s.c
+
+rosidl_generator_py/pkg_test_cpp_msg/srv/_multi_spawn_s.c: rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg_test_cpp_msg/srv/_multi_spawn_s.c
 
 pkg_test_cpp_msg__py: pkg_test_cpp_msg__py/CMakeFiles/pkg_test_cpp_msg__py
 pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_c.c
@@ -112,6 +125,9 @@ pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.e
 pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/msg/__init__.py
 pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/msg/_cmd_and_pose_vel.py
 pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/msg/_cmd_and_pose_vel_s.c
+pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/srv/__init__.py
+pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/srv/_multi_spawn.py
+pkg_test_cpp_msg__py: rosidl_generator_py/pkg_test_cpp_msg/srv/_multi_spawn_s.c
 pkg_test_cpp_msg__py: pkg_test_cpp_msg__py/CMakeFiles/pkg_test_cpp_msg__py.dir/build.make
 .PHONY : pkg_test_cpp_msg__py
 

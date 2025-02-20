@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/pkg_test_cpp_msg/msg/__init__.py"
   "../rosidl_generator_py/pkg_test_cpp_msg/msg/_cmd_and_pose_vel.py"
   "../rosidl_generator_py/pkg_test_cpp_msg/msg/_cmd_and_pose_vel_s.c"
+  "../rosidl_generator_py/pkg_test_cpp_msg/srv/__init__.py"
+  "../rosidl_generator_py/pkg_test_cpp_msg/srv/_multi_spawn.py"
+  "../rosidl_generator_py/pkg_test_cpp_msg/srv/_multi_spawn_s.c"
   "CMakeFiles/pkg_test_cpp_msg__py"
 )
 

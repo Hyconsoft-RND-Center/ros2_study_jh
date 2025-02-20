@@ -1,0 +1,4 @@
+Invoking command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp -- -j16 -l16
+Invoked command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp -- -j16 -l16
+Invoking command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp
+Invoked command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp

@@ -67,6 +67,9 @@ include CMakeFiles/pkg_test_cpp_msg.dir/compiler_depend.make
 include CMakeFiles/pkg_test_cpp_msg.dir/progress.make
 
 CMakeFiles/pkg_test_cpp_msg: /home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp_msg/msg/CmdAndPoseVel.msg
+CMakeFiles/pkg_test_cpp_msg: /home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp_msg/srv/MultiSpawn.srv
+CMakeFiles/pkg_test_cpp_msg: rosidl_cmake/srv/MultiSpawn_Request.msg
+CMakeFiles/pkg_test_cpp_msg: rosidl_cmake/srv/MultiSpawn_Response.msg
 
 pkg_test_cpp_msg: CMakeFiles/pkg_test_cpp_msg
 pkg_test_cpp_msg: CMakeFiles/pkg_test_cpp_msg.dir/build.make

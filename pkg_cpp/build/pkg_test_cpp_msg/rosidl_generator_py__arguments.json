@@ -3,7 +3,8 @@
   "output_dir": "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_py/pkg_test_cpp_msg",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_adapter/pkg_test_cpp_msg:msg/CmdAndPoseVel.idl"
+    "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_adapter/pkg_test_cpp_msg:msg/CmdAndPoseVel.idl",
+    "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_adapter/pkg_test_cpp_msg:srv/MultiSpawn.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -19,6 +20,7 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_adapter/pkg_test_cpp_msg/msg/CmdAndPoseVel.idl"
+    "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_adapter/pkg_test_cpp_msg/msg/CmdAndPoseVel.idl",
+    "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_adapter/pkg_test_cpp_msg/srv/MultiSpawn.idl"
   ]
 }

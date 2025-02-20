@@ -527,6 +527,14 @@ CMakeFiles/turtlesim_cmd_and_pose.dir/src/turtlesim_cmd_and_pose.cpp.o: \
  /opt/ros/humble/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp \
  /opt/ros/humble/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp \
  /opt/ros/humble/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp \
  /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__struct.hpp \
  /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__builder.hpp \

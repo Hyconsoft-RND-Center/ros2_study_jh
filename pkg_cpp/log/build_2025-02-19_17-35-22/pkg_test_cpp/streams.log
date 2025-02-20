@@ -1,0 +1,40 @@
+[0.009s] Invoking command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp -- -j16 -l16
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_service_server[0m
+[0.084s] [ 25%] Built target turtlesim_subscriber
+[0.085s] [ 50%] Built target turtlesim_cmd_and_pose
+[0.087s] [ 75%] Built target turtlesim_publisher
+[0.090s] [ 83%] [32mBuilding CXX object CMakeFiles/turtlesim_service_server.dir/src/main_service_server.cpp.o[0m
+[0.090s] [ 91%] [32mBuilding CXX object CMakeFiles/turtlesim_service_server.dir/src/turtlesim_service_server.cpp.o[0m
+[1.175s] [01m[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimMultiSpawning::callback_service(std::shared_ptr<pkg_test_cpp_msg::srv::MultiSpawn_Request_<std::allocator<void> > >, std::shared_ptr<pkg_test_cpp_msg::srv::MultiSpawn_Response_<std::allocator<void> > >)[m[K’:
+[1.175s] [01m[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:31:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kpkg_test_cpp_msg::srv::MultiSpawn_Request_<std::allocator<void> >::_num_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.175s]    31 |     for (size_t i = 0; [01;35m[Ki < request_->num[m[K; ++i) {
+[1.175s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[1.177s] [01m[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:26:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.177s]    26 |     [01;35m[Kstd::shared_ptr<pkg_test_cpp_msg::srv::MultiSpawn::Response> response_[m[K
+[1.177s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.527s] [100%] [32m[1mLinking CXX executable turtlesim_service_server[0m
+[2.685s] [100%] Built target turtlesim_service_server
+[2.698s] Invoked command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp -- -j16 -l16
+[2.700s] Invoking command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp
+[2.711s] -- Install configuration: ""
+[2.711s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/lib/pkg_test_cpp/turtlesim_subscriber
+[2.711s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/lib/pkg_test_cpp/turtlesim_publisher
+[2.712s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/lib/pkg_test_cpp/turtlesim_cmd_and_pose
+[2.712s] -- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/lib/pkg_test_cpp/turtlesim_service_server
+[2.714s] -- Set runtime path of "/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/lib/pkg_test_cpp/turtlesim_service_server" to ""
+[2.715s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/ament_index/resource_index/package_run_dependencies/pkg_test_cpp
+[2.715s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/ament_index/resource_index/parent_prefix_path/pkg_test_cpp
+[2.715s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/environment/ament_prefix_path.sh
+[2.715s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/environment/ament_prefix_path.dsv
+[2.716s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/environment/path.sh
+[2.716s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/environment/path.dsv
+[2.716s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/local_setup.bash
+[2.716s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/local_setup.sh
+[2.716s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/local_setup.zsh
+[2.716s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/local_setup.dsv
+[2.717s] -- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/package.dsv
+[2.717s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/ament_index/resource_index/packages/pkg_test_cpp
+[2.717s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/cmake/pkg_test_cppConfig.cmake
+[2.717s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/cmake/pkg_test_cppConfig-version.cmake
+[2.717s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/package.xml
+[2.720s] Invoked command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp

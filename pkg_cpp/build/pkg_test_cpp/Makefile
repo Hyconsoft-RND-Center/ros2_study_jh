@@ -236,6 +236,19 @@ turtlesim_cmd_and_pose/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_cmd_and_pose.dir/build.make CMakeFiles/turtlesim_cmd_and_pose.dir/build
 .PHONY : turtlesim_cmd_and_pose/fast
 
+#=============================================================================
+# Target rules for targets named turtlesim_service_server
+
+# Build rule for target.
+turtlesim_service_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtlesim_service_server
+.PHONY : turtlesim_service_server
+
+# fast build rule for target.
+turtlesim_service_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_service_server.dir/build.make CMakeFiles/turtlesim_service_server.dir/build
+.PHONY : turtlesim_service_server/fast
+
 src/main_cmd_and_pose.o: src/main_cmd_and_pose.cpp.o
 .PHONY : src/main_cmd_and_pose.o
 
@@ -283,6 +296,30 @@ src/main_publisher.s: src/main_publisher.cpp.s
 src/main_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_publisher.dir/build.make CMakeFiles/turtlesim_publisher.dir/src/main_publisher.cpp.s
 .PHONY : src/main_publisher.cpp.s
+
+src/main_service_server.o: src/main_service_server.cpp.o
+.PHONY : src/main_service_server.o
+
+# target to build an object file
+src/main_service_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_service_server.dir/build.make CMakeFiles/turtlesim_service_server.dir/src/main_service_server.cpp.o
+.PHONY : src/main_service_server.cpp.o
+
+src/main_service_server.i: src/main_service_server.cpp.i
+.PHONY : src/main_service_server.i
+
+# target to preprocess a source file
+src/main_service_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_service_server.dir/build.make CMakeFiles/turtlesim_service_server.dir/src/main_service_server.cpp.i
+.PHONY : src/main_service_server.cpp.i
+
+src/main_service_server.s: src/main_service_server.cpp.s
+.PHONY : src/main_service_server.s
+
+# target to generate assembly for a file
+src/main_service_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_service_server.dir/build.make CMakeFiles/turtlesim_service_server.dir/src/main_service_server.cpp.s
+.PHONY : src/main_service_server.cpp.s
 
 src/main_subscriber.o: src/main_subscriber.cpp.o
 .PHONY : src/main_subscriber.o
@@ -356,6 +393,30 @@ src/turtlesim_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_publisher.dir/build.make CMakeFiles/turtlesim_publisher.dir/src/turtlesim_publisher.cpp.s
 .PHONY : src/turtlesim_publisher.cpp.s
 
+src/turtlesim_service_server.o: src/turtlesim_service_server.cpp.o
+.PHONY : src/turtlesim_service_server.o
+
+# target to build an object file
+src/turtlesim_service_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_service_server.dir/build.make CMakeFiles/turtlesim_service_server.dir/src/turtlesim_service_server.cpp.o
+.PHONY : src/turtlesim_service_server.cpp.o
+
+src/turtlesim_service_server.i: src/turtlesim_service_server.cpp.i
+.PHONY : src/turtlesim_service_server.i
+
+# target to preprocess a source file
+src/turtlesim_service_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_service_server.dir/build.make CMakeFiles/turtlesim_service_server.dir/src/turtlesim_service_server.cpp.i
+.PHONY : src/turtlesim_service_server.cpp.i
+
+src/turtlesim_service_server.s: src/turtlesim_service_server.cpp.s
+.PHONY : src/turtlesim_service_server.s
+
+# target to generate assembly for a file
+src/turtlesim_service_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_service_server.dir/build.make CMakeFiles/turtlesim_service_server.dir/src/turtlesim_service_server.cpp.s
+.PHONY : src/turtlesim_service_server.cpp.s
+
 src/turtlesim_subscriber.o: src/turtlesim_subscriber.cpp.o
 .PHONY : src/turtlesim_subscriber.o
 
@@ -397,6 +458,7 @@ help:
 	@echo "... uninstall"
 	@echo "... turtlesim_cmd_and_pose"
 	@echo "... turtlesim_publisher"
+	@echo "... turtlesim_service_server"
 	@echo "... turtlesim_subscriber"
 	@echo "... src/main_cmd_and_pose.o"
 	@echo "... src/main_cmd_and_pose.i"
@@ -404,6 +466,9 @@ help:
 	@echo "... src/main_publisher.o"
 	@echo "... src/main_publisher.i"
 	@echo "... src/main_publisher.s"
+	@echo "... src/main_service_server.o"
+	@echo "... src/main_service_server.i"
+	@echo "... src/main_service_server.s"
 	@echo "... src/main_subscriber.o"
 	@echo "... src/main_subscriber.i"
 	@echo "... src/main_subscriber.s"
@@ -413,6 +478,9 @@ help:
 	@echo "... src/turtlesim_publisher.o"
 	@echo "... src/turtlesim_publisher.i"
 	@echo "... src/turtlesim_publisher.s"
+	@echo "... src/turtlesim_service_server.o"
+	@echo "... src/turtlesim_service_server.i"
+	@echo "... src/turtlesim_service_server.s"
 	@echo "... src/turtlesim_subscriber.o"
 	@echo "... src/turtlesim_subscriber.i"
 	@echo "... src/turtlesim_subscriber.s"

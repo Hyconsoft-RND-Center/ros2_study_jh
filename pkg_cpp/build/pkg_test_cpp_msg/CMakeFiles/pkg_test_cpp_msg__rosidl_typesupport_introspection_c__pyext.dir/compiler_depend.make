@@ -245,8 +245,16 @@ CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_introspection_c__pyext.dir/rosid
   rosidl_generator_c/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.h \
   rosidl_generator_c/pkg_test_cpp_msg/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__struct.h \
-  rosidl_generator_c/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__functions.h
+  rosidl_generator_c/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__functions.h \
+  rosidl_generator_c/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.h \
+  rosidl_generator_c/pkg_test_cpp_msg/srv/detail/multi_spawn__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  rosidl_generator_c/pkg_test_cpp_msg/srv/detail/multi_spawn__functions.h
 
+
+rosidl_generator_c/pkg_test_cpp_msg/srv/detail/multi_spawn__struct.h:
+
+rosidl_generator_c/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.h:
 
 rosidl_generator_c/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__functions.h:
 
@@ -370,6 +378,8 @@ rosidl_generator_c/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.h:
 
 /usr/include/python3.10/cpython/object.h:
 
+rosidl_generator_c/pkg_test_cpp_msg/srv/detail/multi_spawn__functions.h:
+
 /usr/include/python3.10/pymath.h:
 
 /usr/include/python3.10/warnings.h:
@@ -381,6 +391,8 @@ rosidl_generator_c/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.h:
 /usr/include/python3.10/fileobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 

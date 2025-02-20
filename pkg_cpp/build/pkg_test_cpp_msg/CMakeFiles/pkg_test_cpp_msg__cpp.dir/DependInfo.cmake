@@ -16,6 +16,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__struct.hpp" "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp"
   "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__traits.hpp" "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp"
   "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.hpp" "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp"
+  "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__builder.hpp" "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp"
+  "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__struct.hpp" "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp"
+  "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__traits.hpp" "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp"
+  "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.hpp" "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp"
+  "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/srv/multi_spawn.hpp" "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp"
   )
 
 

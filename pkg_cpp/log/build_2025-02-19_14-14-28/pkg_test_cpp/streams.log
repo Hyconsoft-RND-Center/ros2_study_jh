@@ -1,0 +1,35 @@
+[0.010s] Invoking command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp -- -j16 -l16
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_subscriber[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_cmd_and_pose[0m
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_publisher[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_service_server[0m
+[0.107s] [ 25%] Built target turtlesim_subscriber
+[0.116s] [ 50%] Built target turtlesim_publisher
+[0.116s] [ 75%] Built target turtlesim_cmd_and_pose
+[0.125s] [ 83%] [32mBuilding CXX object CMakeFiles/turtlesim_service_server.dir/src/turtlesim_service_server.cpp.o[0m
+[1.854s] [ 91%] [32m[1mLinking CXX executable turtlesim_service_server[0m
+[1.980s] [100%] Built target turtlesim_service_server
+[1.993s] Invoked command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp -- -j16 -l16
+[1.995s] Invoking command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp
+[2.008s] -- Install configuration: ""
+[2.009s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/lib/pkg_test_cpp/turtlesim_subscriber
+[2.009s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/lib/pkg_test_cpp/turtlesim_publisher
+[2.009s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/lib/pkg_test_cpp/turtlesim_cmd_and_pose
+[2.009s] -- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/lib/pkg_test_cpp/turtlesim_service_server
+[2.010s] -- Set runtime path of "/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/lib/pkg_test_cpp/turtlesim_service_server" to ""
+[2.010s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/ament_index/resource_index/package_run_dependencies/pkg_test_cpp
+[2.010s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/ament_index/resource_index/parent_prefix_path/pkg_test_cpp
+[2.010s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/environment/ament_prefix_path.sh
+[2.011s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/environment/ament_prefix_path.dsv
+[2.011s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/environment/path.sh
+[2.011s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/environment/path.dsv
+[2.011s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/local_setup.bash
+[2.011s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/local_setup.sh
+[2.011s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/local_setup.zsh
+[2.011s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/local_setup.dsv
+[2.011s] -- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/package.dsv
+[2.012s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/ament_index/resource_index/packages/pkg_test_cpp
+[2.012s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/cmake/pkg_test_cppConfig.cmake
+[2.012s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/cmake/pkg_test_cppConfig-version.cmake
+[2.012s] -- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/package.xml
+[2.014s] Invoked command in '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp

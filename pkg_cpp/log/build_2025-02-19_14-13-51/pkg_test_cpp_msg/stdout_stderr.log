@@ -1,0 +1,235 @@
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_copy_pkg_test_cpp_msg
+running egg_info
+creating pkg_test_cpp_msg.egg-info
+writing pkg_test_cpp_msg.egg-info/PKG-INFO
+writing dependency_links to pkg_test_cpp_msg.egg-info/dependency_links.txt
+writing top-level names to pkg_test_cpp_msg.egg-info/top_level.txt
+writing manifest file 'pkg_test_cpp_msg.egg-info/SOURCES.txt'
+reading manifest file 'pkg_test_cpp_msg.egg-info/SOURCES.txt'
+writing manifest file 'pkg_test_cpp_msg.egg-info/SOURCES.txt'
+[  5%] Built target ament_cmake_python_build_pkg_test_cpp_msg_egg
+[  5%] Built target pkg_test_cpp_msg__cpp
+[ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 15%] [32mBuilding C object CMakeFiles/pkg_test_cpp_msg__rosidl_generator_c.dir/rosidl_generator_c/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/pkg_test_cpp_msg__rosidl_generator_c.dir/rosidl_generator_c/pkg_test_cpp_msg/srv/detail/multi_spawn__functions.c.o[0m
+[ 20%] [32m[1mLinking C shared library libpkg_test_cpp_msg__rosidl_generator_c.so[0m
+[ 20%] Built target pkg_test_cpp_msg__rosidl_generator_c
+[ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg_test_cpp_msg/srv/multi_spawn__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg_test_cpp_msg/msg/detail/dds_fastrtps/cmd_and_pose_vel__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg_test_cpp_msg/srv/detail/dds_fastrtps/multi_spawn__type_support.cpp.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.c.o[0m
+[ 51%] [32m[1mLinking C shared library libpkg_test_cpp_msg__rosidl_typesupport_introspection_c.so[0m
+[ 51%] Built target pkg_test_cpp_msg__rosidl_typesupport_introspection_c
+[ 56%] [32mBuilding CXX object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg_test_cpp_msg/srv/multi_spawn__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg_test_cpp_msg/msg/cmd_and_pose_vel__type_support.cpp.o[0m
+[ 58%] [32m[1mLinking CXX shared library libpkg_test_cpp_msg__rosidl_typesupport_c.so[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support_c.cpp.o[0m
+[ 64%] Built target pkg_test_cpp_msg__rosidl_typesupport_c
+[ 66%] [32m[1mLinking CXX shared library libpkg_test_cpp_msg__rosidl_typesupport_cpp.so[0m
+[ 66%] Built target pkg_test_cpp_msg__rosidl_typesupport_cpp
+[ 69%] [32m[1mLinking CXX shared library libpkg_test_cpp_msg__rosidl_typesupport_introspection_cpp.so[0m
+[ 69%] Built target pkg_test_cpp_msg__rosidl_typesupport_introspection_cpp
+[ 71%] [32m[1mLinking CXX shared library libpkg_test_cpp_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 71%] Built target pkg_test_cpp_msg__rosidl_typesupport_fastrtps_cpp
+[ 74%] [32m[1mLinking CXX shared library libpkg_test_cpp_msg__rosidl_typesupport_fastrtps_c.so[0m
+[ 74%] Built target pkg_test_cpp_msg__rosidl_typesupport_fastrtps_c
+[ 74%] Built target pkg_test_cpp_msg
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target pkg_test_cpp_msg__py
+[ 79%] [32mBuilding C object CMakeFiles/pkg_test_cpp_msg__rosidl_generator_py.dir/rosidl_generator_py/pkg_test_cpp_msg/srv/_multi_spawn_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/pkg_test_cpp_msg__rosidl_generator_py.dir/rosidl_generator_py/pkg_test_cpp_msg/msg/_cmd_and_pose_vel_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/pkg_test_cpp_msg/libpkg_test_cpp_msg__rosidl_generator_py.so[0m
+[ 84%] Built target pkg_test_cpp_msg__rosidl_generator_py
+[ 87%] [32mBuilding C object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/pkg_test_cpp_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target pkg_test_cpp_msg__rosidl_typesupport_c__pyext
+[100%] Built target pkg_test_cpp_msg__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target pkg_test_cpp_msg__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/ament_index/resource_index/rosidl_interfaces/pkg_test_cpp_msg
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__functions.c
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__functions.h
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.h
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__struct.h
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/cmd_and_pose_vel.h
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__functions.h
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.h
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__functions.c
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__struct.h
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/multi_spawn.h
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/library_path.sh
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/library_path.dsv
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_generator_c.so
+-- Set runtime path of "/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_c.h
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.c
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__rosidl_typesupport_introspection_c.h
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.c
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_c.so
+-- Set runtime path of "/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__builder.hpp
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__traits.hpp
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.hpp
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__struct.hpp
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__struct.hpp
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.hpp
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__traits.hpp
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__builder.hpp
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/multi_spawn.hpp
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/dds_fastrtps
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/dds_fastrtps
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.cpp
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv
+-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.cpp
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/pythonpath.sh
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/pythonpath.dsv
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg-0.0.0-py3.10.egg-info
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/libpkg_test_cpp_msg__rosidl_generator_py.so
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/__init__.py
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/msg
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/msg/_cmd_and_pose_vel_s.c
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/msg/__init__.py
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/msg/_cmd_and_pose_vel.py
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/srv
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/srv/_multi_spawn_s.c
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/srv/__init__.py
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/srv/_multi_spawn.py
+Listing '/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg'...
+Compiling '/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/__init__.py'...
+Listing '/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/msg'...
+Compiling '/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/msg/__init__.py'...
+Compiling '/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/msg/_cmd_and_pose_vel.py'...
+Listing '/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/srv'...
+Compiling '/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/srv/__init__.py'...
+Compiling '/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/srv/_multi_spawn.py'...
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_generator_py.so
+-- Set runtime path of "/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_generator_py.so" to ""
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/msg/CmdAndPoseVel.idl
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/srv/MultiSpawn.idl
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/msg/CmdAndPoseVel.msg
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/srv/MultiSpawn.srv
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/srv/MultiSpawn_Request.msg
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/srv/MultiSpawn_Response.msg
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/ament_index/resource_index/package_run_dependencies/pkg_test_cpp_msg
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/ament_index/resource_index/parent_prefix_path/pkg_test_cpp_msg
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/ament_prefix_path.sh
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/ament_prefix_path.dsv
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/path.sh
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/path.dsv
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/local_setup.bash
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/local_setup.sh
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/local_setup.zsh
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/local_setup.dsv
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/package.dsv
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/ament_index/resource_index/packages/pkg_test_cpp_msg
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_generator_cExport.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_cExport.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_generator_cppExport.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_generator_pyExport.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msgConfig.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msgConfig-version.cmake
+-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/package.xml

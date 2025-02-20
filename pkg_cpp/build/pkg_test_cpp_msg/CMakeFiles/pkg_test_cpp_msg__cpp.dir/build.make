@@ -71,6 +71,11 @@ CMakeFiles/pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/deta
 CMakeFiles/pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__struct.hpp
 CMakeFiles/pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__traits.hpp
 CMakeFiles/pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.hpp
+CMakeFiles/pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/srv/multi_spawn.hpp
+CMakeFiles/pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__builder.hpp
+CMakeFiles/pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__struct.hpp
+CMakeFiles/pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__traits.hpp
+CMakeFiles/pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.hpp
 CMakeFiles/pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -89,6 +94,7 @@ rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/
 rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp: rosidl_adapter/pkg_test_cpp_msg/msg/CmdAndPoseVel.idl
+rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp: rosidl_adapter/pkg_test_cpp_msg/srv/MultiSpawn.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_cpp__arguments.json
 
@@ -104,12 +110,32 @@ rosidl_generator_cpp/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__traits.hpp: r
 rosidl_generator_cpp/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.hpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.hpp
 
+rosidl_generator_cpp/pkg_test_cpp_msg/srv/multi_spawn.hpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg_test_cpp_msg/srv/multi_spawn.hpp
+
+rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__builder.hpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__builder.hpp
+
+rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__struct.hpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__struct.hpp
+
+rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__traits.hpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__traits.hpp
+
+rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.hpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.hpp
+
 pkg_test_cpp_msg__cpp: CMakeFiles/pkg_test_cpp_msg__cpp
 pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp
 pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__builder.hpp
 pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__struct.hpp
 pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__traits.hpp
 pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.hpp
+pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__builder.hpp
+pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__struct.hpp
+pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__traits.hpp
+pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.hpp
+pkg_test_cpp_msg__cpp: rosidl_generator_cpp/pkg_test_cpp_msg/srv/multi_spawn.hpp
 pkg_test_cpp_msg__cpp: CMakeFiles/pkg_test_cpp_msg__cpp.dir/build.make
 .PHONY : pkg_test_cpp_msg__cpp
 

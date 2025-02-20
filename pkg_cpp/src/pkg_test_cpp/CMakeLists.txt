@@ -24,10 +24,13 @@ add_executable(turtlesim_publisher src/main_publisher.cpp src/turtlesim_publishe
 ament_target_dependencies(turtlesim_publisher rclcpp geometry_msgs)
 
 add_executable(turtlesim_cmd_and_pose src/main_cmd_and_pose.cpp src/turtlesim_cmd_and_pose.cpp)
-ament_target_dependencies(turtlesim_cmd_and_pose rclcpp turtlesim pkg_test_cpp_msg)
+ament_target_dependencies(turtlesim_cmd_and_pose rclcpp turtlesim geometry_msgs pkg_test_cpp_msg)
+
+add_executable(turtlesim_service_server src/main_service_server.cpp src/turtlesim_service_server.cpp)
+ament_target_dependencies(turtlesim_service_server rclcpp pkg_test_cpp_msg turtlesim)
 
 install(
-  TARGETS turtlesim_subscriber turtlesim_publisher turtlesim_cmd_and_pose
+  TARGETS turtlesim_subscriber turtlesim_publisher turtlesim_cmd_and_pose turtlesim_service_server
   DESTINATION lib/${PROJECT_NAME}
 )
 

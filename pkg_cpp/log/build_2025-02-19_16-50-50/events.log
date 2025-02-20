@@ -1,0 +1,352 @@
+[0.000000] (-) TimerEvent: {}
+[0.000374] (pkg_test_cpp) JobQueued: {'identifier': 'pkg_test_cpp', 'dependencies': OrderedDict()}
+[0.000576] (pkg_test_cpp_msg) JobQueued: {'identifier': 'pkg_test_cpp_msg', 'dependencies': OrderedDict()}
+[0.000658] (pkg_test_cpp) JobStarted: {'identifier': 'pkg_test_cpp'}
+[0.003556] (pkg_test_cpp_msg) JobStarted: {'identifier': 'pkg_test_cpp_msg'}
+[0.006028] (pkg_test_cpp) JobProgress: {'identifier': 'pkg_test_cpp', 'progress': 'cmake'}
+[0.006371] (pkg_test_cpp) JobProgress: {'identifier': 'pkg_test_cpp', 'progress': 'build'}
+[0.006888] (pkg_test_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp', '--', '-j16', '-l16'], 'cwd': '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'hycon'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hycon'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/hycon'), ('TERM_PROGRAM_VERSION', '1.97.1'), ('DESKTOP_SESSION', 'ubuntu'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/hycon/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8e50f911d0d2098a.txt'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '999'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1455'), ('BUNDLED_DEBUGPY_PATH', '/home/hycon/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1890'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hycon'), ('JOURNAL_STREAM', '8:14532'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hycon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hycon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hycon/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hycon:@/tmp/.ICE-unix/1189,unix/hycon:/tmp/.ICE-unix/1189'), ('INVOCATION_ID', '800bec59ad42435cad9c33ffe001c5e6'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PHL712'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2e607cfef9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8e944f54-8cde-45ee-a182-bd5657f3ab50'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.010390] (pkg_test_cpp_msg) JobProgress: {'identifier': 'pkg_test_cpp_msg', 'progress': 'cmake'}
+[0.011422] (pkg_test_cpp_msg) JobProgress: {'identifier': 'pkg_test_cpp_msg', 'progress': 'build'}
+[0.011456] (pkg_test_cpp_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg', '--', '-j16', '-l16'], 'cwd': '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'hycon'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hycon'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/hycon'), ('TERM_PROGRAM_VERSION', '1.97.1'), ('DESKTOP_SESSION', 'ubuntu'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/hycon/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8e50f911d0d2098a.txt'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '999'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1455'), ('BUNDLED_DEBUGPY_PATH', '/home/hycon/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1890'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hycon'), ('JOURNAL_STREAM', '8:14532'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hycon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hycon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hycon/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hycon:@/tmp/.ICE-unix/1189,unix/hycon:/tmp/.ICE-unix/1189'), ('INVOCATION_ID', '800bec59ad42435cad9c33ffe001c5e6'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PHL712'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2e607cfef9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8e944f54-8cde-45ee-a182-bd5657f3ab50'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.030864] (pkg_test_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.059986] (pkg_test_cpp_msg) StdoutLine: {'line': b'[ 10%] Built target pkg_test_cpp_msg__rosidl_generator_c\n'}
+[0.060257] (pkg_test_cpp_msg) StdoutLine: {'line': b'[ 12%] Built target pkg_test_cpp_msg__cpp\n'}
+[0.068819] (pkg_test_cpp_msg) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_pkg_test_cpp_msg\n'}
+[0.076544] (pkg_test_cpp_msg) StdoutLine: {'line': b'[ 23%] Built target pkg_test_cpp_msg__rosidl_typesupport_c\n'}
+[0.077012] (pkg_test_cpp_msg) StdoutLine: {'line': b'[ 33%] Built target pkg_test_cpp_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.078180] (pkg_test_cpp_msg) StdoutLine: {'line': b'[ 53%] Built target pkg_test_cpp_msg__rosidl_typesupport_introspection_c\n'}
+[0.078259] (pkg_test_cpp_msg) StdoutLine: {'line': b'[ 53%] Built target pkg_test_cpp_msg__rosidl_typesupport_fastrtps_c\n'}
+[0.079008] (pkg_test_cpp_msg) StdoutLine: {'line': b'[ 64%] Built target pkg_test_cpp_msg__rosidl_typesupport_introspection_cpp\n'}
+[0.080446] (pkg_test_cpp_msg) StdoutLine: {'line': b'[ 74%] Built target pkg_test_cpp_msg__rosidl_typesupport_cpp\n'}
+[0.097458] (pkg_test_cpp_msg) StdoutLine: {'line': b'[ 74%] Built target pkg_test_cpp_msg\n'}
+[0.099853] (-) TimerEvent: {}
+[0.116544] (pkg_test_cpp_msg) StdoutLine: {'line': b'[ 76%] Built target pkg_test_cpp_msg__py\n'}
+[0.137708] (pkg_test_cpp_msg) StdoutLine: {'line': b'[ 84%] Built target pkg_test_cpp_msg__rosidl_generator_py\n'}
+[0.156313] (pkg_test_cpp_msg) StdoutLine: {'line': b'[ 89%] Built target pkg_test_cpp_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[0.158429] (pkg_test_cpp_msg) StdoutLine: {'line': b'[ 94%] Built target pkg_test_cpp_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.159289] (pkg_test_cpp_msg) StdoutLine: {'line': b'[100%] Built target pkg_test_cpp_msg__rosidl_typesupport_c__pyext\n'}
+[0.159555] (pkg_test_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.182790] (pkg_test_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.184667] (pkg_test_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.190772] (pkg_test_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.199031] (pkg_test_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199957] (-) TimerEvent: {}
+[0.208810] (pkg_test_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.220600] (pkg_test_cpp_msg) StdoutLine: {'line': b'running egg_info\n'}
+[0.221221] (pkg_test_cpp_msg) StdoutLine: {'line': b'writing pkg_test_cpp_msg.egg-info/PKG-INFO\n'}
+[0.221358] (pkg_test_cpp_msg) StdoutLine: {'line': b'writing dependency_links to pkg_test_cpp_msg.egg-info/dependency_links.txt\n'}
+[0.221472] (pkg_test_cpp_msg) StdoutLine: {'line': b'writing top-level names to pkg_test_cpp_msg.egg-info/top_level.txt\n'}
+[0.223026] (pkg_test_cpp_msg) StdoutLine: {'line': b"reading manifest file 'pkg_test_cpp_msg.egg-info/SOURCES.txt'\n"}
+[0.223346] (pkg_test_cpp_msg) StdoutLine: {'line': b"writing manifest file 'pkg_test_cpp_msg.egg-info/SOURCES.txt'\n"}
+[0.237450] (pkg_test_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.239403] (pkg_test_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.241402] (pkg_test_cpp_msg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_pkg_test_cpp_msg_egg\n'}
+[0.251694] (pkg_test_cpp_msg) CommandEnded: {'returncode': 0}
+[0.252707] (pkg_test_cpp_msg) JobProgress: {'identifier': 'pkg_test_cpp_msg', 'progress': 'install'}
+[0.261463] (pkg_test_cpp_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg'], 'cwd': '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'hycon'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hycon'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/hycon'), ('TERM_PROGRAM_VERSION', '1.97.1'), ('DESKTOP_SESSION', 'ubuntu'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/hycon/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8e50f911d0d2098a.txt'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '999'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1455'), ('BUNDLED_DEBUGPY_PATH', '/home/hycon/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1890'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hycon'), ('JOURNAL_STREAM', '8:14532'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hycon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hycon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hycon/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hycon:@/tmp/.ICE-unix/1189,unix/hycon:/tmp/.ICE-unix/1189'), ('INVOCATION_ID', '800bec59ad42435cad9c33ffe001c5e6'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PHL712'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2e607cfef9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8e944f54-8cde-45ee-a182-bd5657f3ab50'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.269508] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.269791] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/ament_index/resource_index/rosidl_interfaces/pkg_test_cpp_msg\n'}
+[0.269931] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg\n'}
+[0.270017] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg\n'}
+[0.270099] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail\n'}
+[0.270184] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__functions.c\n'}
+[0.270278] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__functions.h\n'}
+[0.270428] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.h\n'}
+[0.270509] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__struct.h\n'}
+[0.270588] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.270672] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/cmd_and_pose_vel.h\n'}
+[0.270754] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv\n'}
+[0.270835] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail\n'}
+[0.270924] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__functions.h\n'}
+[0.271004] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.h\n'}
+[0.271138] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__functions.c\n'}
+[0.271213] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__struct.h\n'}
+[0.271359] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/multi_spawn.h\n'}
+[0.271828] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/library_path.sh\n'}
+[0.271998] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/library_path.dsv\n'}
+[0.272099] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_generator_c.so\n'}
+[0.272198] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg\n'}
+[0.272293] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg\n'}
+[0.272431] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail\n'}
+[0.272508] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_c.h\n'}
+[0.272584] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.272662] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv\n'}
+[0.272741] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail\n'}
+[0.272820] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[0.272899] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[0.272978] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg\n'}
+[0.273057] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg\n'}
+[0.273135] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail\n'}
+[0.273271] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_c.h\n'}
+[0.273467] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.c\n'}
+[0.273578] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.273653] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv\n'}
+[0.273726] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail\n'}
+[0.273801] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__rosidl_typesupport_introspection_c.h\n'}
+[0.273880] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.c\n'}
+[0.273955] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_introspection_c.so\n'}
+[0.274030] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_c.so\n'}
+[0.274104] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg\n'}
+[0.274177] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg\n'}
+[0.274251] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.274334] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail\n'}
+[0.274410] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__builder.hpp\n'}
+[0.274484] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__traits.hpp\n'}
+[0.274563] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.hpp\n'}
+[0.274637] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__struct.hpp\n'}
+[0.274708] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/cmd_and_pose_vel.hpp\n'}
+[0.274780] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv\n'}
+[0.274851] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail\n'}
+[0.274921] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__struct.hpp\n'}
+[0.274992] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.hpp\n'}
+[0.275068] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__traits.hpp\n'}
+[0.275139] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__builder.hpp\n'}
+[0.275210] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/multi_spawn.hpp\n'}
+[0.275290] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg\n'}
+[0.275366] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg\n'}
+[0.275438] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.275509] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail\n'}
+[0.275580] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/dds_fastrtps\n'}
+[0.275652] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.275724] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv\n'}
+[0.275800] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail\n'}
+[0.275871] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/dds_fastrtps\n'}
+[0.275942] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.276013] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.276084] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg\n'}
+[0.276156] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg\n'}
+[0.276227] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail\n'}
+[0.276357] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__type_support.cpp\n'}
+[0.276423] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.276459] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv\n'}
+[0.276496] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail\n'}
+[0.276524] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__type_support.cpp\n'}
+[0.276552] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/include/pkg_test_cpp_msg/pkg_test_cpp_msg/srv/detail/multi_spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.276580] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[0.276608] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_typesupport_cpp.so\n'}
+[0.276635] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/pythonpath.sh\n'}
+[0.276662] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/pythonpath.dsv\n'}
+[0.276688] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg-0.0.0-py3.10.egg-info\n'}
+[0.276714] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.276742] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.276769] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.276796] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.276822] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg\n'}
+[0.276848] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/libpkg_test_cpp_msg__rosidl_generator_py.so\n'}
+[0.276873] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.276901] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/__init__.py\n'}
+[0.276926] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.276952] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.276978] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.277004] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.277029] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_c.c\n'}
+[0.277055] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/msg\n'}
+[0.277081] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/msg/_cmd_and_pose_vel_s.c\n'}
+[0.277107] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/msg/__init__.py\n'}
+[0.277132] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/msg/_cmd_and_pose_vel.py\n'}
+[0.277160] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/srv\n'}
+[0.277185] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/srv/_multi_spawn_s.c\n'}
+[0.277211] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/srv/__init__.py\n'}
+[0.277236] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/srv/_multi_spawn.py\n'}
+[0.300071] (-) TimerEvent: {}
+[0.306134] (pkg_test_cpp_msg) StdoutLine: {'line': b"Listing '/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg'...\n"}
+[0.306302] (pkg_test_cpp_msg) StdoutLine: {'line': b"Listing '/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/msg'...\n"}
+[0.306389] (pkg_test_cpp_msg) StdoutLine: {'line': b"Listing '/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/srv'...\n"}
+[0.310765] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.311046] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.311241] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/local/lib/python3.10/dist-packages/pkg_test_cpp_msg/pkg_test_cpp_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.311524] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/lib/libpkg_test_cpp_msg__rosidl_generator_py.so\n'}
+[0.311744] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/msg/CmdAndPoseVel.idl\n'}
+[0.312010] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/srv/MultiSpawn.idl\n'}
+[0.312112] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/msg/CmdAndPoseVel.msg\n'}
+[0.312241] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/srv/MultiSpawn.srv\n'}
+[0.312344] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/srv/MultiSpawn_Request.msg\n'}
+[0.312432] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/srv/MultiSpawn_Response.msg\n'}
+[0.312513] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/ament_index/resource_index/package_run_dependencies/pkg_test_cpp_msg\n'}
+[0.312595] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/ament_index/resource_index/parent_prefix_path/pkg_test_cpp_msg\n'}
+[0.312675] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/ament_prefix_path.sh\n'}
+[0.312757] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/ament_prefix_path.dsv\n'}
+[0.312842] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/path.sh\n'}
+[0.312926] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/environment/path.dsv\n'}
+[0.313008] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/local_setup.bash\n'}
+[0.313090] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/local_setup.sh\n'}
+[0.313171] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/local_setup.zsh\n'}
+[0.313254] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/local_setup.dsv\n'}
+[0.313434] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Installing: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/package.dsv\n'}
+[0.313520] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/ament_index/resource_index/packages/pkg_test_cpp_msg\n'}
+[0.313637] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_generator_cExport.cmake\n'}
+[0.313717] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.313798] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.313878] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.313997] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.314080] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.314160] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_cExport.cmake\n'}
+[0.314240] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.314418] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_generator_cppExport.cmake\n'}
+[0.314497] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.314575] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.314686] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.314765] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.314843] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_cppExport.cmake\n'}
+[0.314925] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.315040] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_generator_pyExport.cmake\n'}
+[0.315181] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/export_pkg_test_cpp_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.315307] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[0.315582] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.315722] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.315857] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.315984] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.316111] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.316250] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.316409] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msgConfig.cmake\n'}
+[0.316537] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake/pkg_test_cpp_msgConfig-version.cmake\n'}
+[0.316660] (pkg_test_cpp_msg) StdoutLine: {'line': b'-- Up-to-date: /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/package.xml\n'}
+[0.318952] (pkg_test_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.319693] (pkg_test_cpp_msg) CommandEnded: {'returncode': 0}
+[0.332860] (pkg_test_cpp_msg) JobEnded: {'identifier': 'pkg_test_cpp_msg', 'rc': 0}
+[0.373116] (pkg_test_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.400284] (-) TimerEvent: {}
+[0.401654] (pkg_test_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.414275] (pkg_test_cpp) StdoutLine: {'line': b'-- Found pkg_test_cpp_msg: 0.0.0 (/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/cmake)\n'}
+[0.425413] (pkg_test_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.482421] (pkg_test_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.482654] (pkg_test_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/include\n'}
+[0.482754] (pkg_test_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.483351] (pkg_test_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.484272] (pkg_test_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.484366] (pkg_test_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.484642] (pkg_test_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.485572] (pkg_test_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.500337] (-) TimerEvent: {}
+[0.500878] (pkg_test_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.505973] (pkg_test_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp\n'}
+[0.532199] (pkg_test_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_service_server\x1b[0m\n'}
+[0.532430] (pkg_test_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_publisher\x1b[0m\n'}
+[0.532532] (pkg_test_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_cmd_and_pose\x1b[0m\n'}
+[0.532623] (pkg_test_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_subscriber\x1b[0m\n'}
+[0.550320] (pkg_test_cpp) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_cmd_and_pose.dir/src/turtlesim_cmd_and_pose.cpp.o\x1b[0m\n'}
+[0.554417] (pkg_test_cpp) StdoutLine: {'line': b'[ 33%] Built target turtlesim_publisher\n'}
+[0.554804] (pkg_test_cpp) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_cmd_and_pose.dir/src/main_cmd_and_pose.cpp.o\x1b[0m\n'}
+[0.558031] (pkg_test_cpp) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_service_server.dir/src/main_service_server.cpp.o\x1b[0m\n'}
+[0.558257] (pkg_test_cpp) StdoutLine: {'line': b'[ 75%] Built target turtlesim_subscriber\n'}
+[0.558406] (pkg_test_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_service_server.dir/src/turtlesim_service_server.cpp.o\x1b[0m\n'}
+[0.600454] (-) TimerEvent: {}
+[0.700734] (-) TimerEvent: {}
+[0.801047] (-) TimerEvent: {}
+[0.901384] (-) TimerEvent: {}
+[1.001698] (-) TimerEvent: {}
+[1.102006] (-) TimerEvent: {}
+[1.202350] (-) TimerEvent: {}
+[1.302667] (-) TimerEvent: {}
+[1.403021] (-) TimerEvent: {}
+[1.498965] (pkg_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTurtlesimMultiSpawning::TurtlesimMultiSpawning()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.499222] (pkg_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:8:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTeleportAbolute\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::srv\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KTeleportAbsolute\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.499342] (pkg_test_cpp) StderrLine: {'line': b'    8 |     teleport_client_ = this->create_client<turtlesim::srv::\x1b[01;31m\x1b[KTeleportAbolute\x1b[m\x1b[K>("turtle1/teleport_absolute");\n'}
+[1.499433] (pkg_test_cpp) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.499513] (pkg_test_cpp) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[KTeleportAbsolute\x1b[m\x1b[K\n'}
+[1.499593] (pkg_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:8:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTurtlesimMultiSpawning::create_client<<expression error> >(const char [26])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.499855] (pkg_test_cpp) StderrLine: {'line': b'    8 |     teleport_client_ = \x1b[01;31m\x1b[Kthis->create_client<turtlesim::srv::TeleportAbolute>("turtle1/teleport_absolute")\x1b[m\x1b[K;\n'}
+[1.499945] (pkg_test_cpp) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.500024] (pkg_test_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/include/pkg_test_cpp/turtlesim_service_server.hpp:4\x1b[m\x1b[K,\n'}
+[1.500102] (pkg_test_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:1\x1b[m\x1b[K:\n'}
+[1.500185] (pkg_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.500273] (pkg_test_cpp) StderrLine: {'line': b'  252 |   \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[1.500363] (pkg_test_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.500440] (pkg_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.500514] (pkg_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:8:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.500594] (pkg_test_cpp) StderrLine: {'line': b'    8 |     teleport_client_ = \x1b[01;31m\x1b[Kthis->create_client<turtlesim::srv::TeleportAbolute>("turtle1/teleport_absolute")\x1b[m\x1b[K;\n'}
+[1.500668] (pkg_test_cpp) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.503234] (pkg_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TurtlesimMultiSpawning::callback_service(std::shared_ptr<pkg_test_cpp_msg::srv::MultiSpawn_Request_<std::allocator<void> > >, std::shared_ptr<pkg_test_cpp_msg::srv::MultiSpawn_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.503408] (-) TimerEvent: {}
+[1.503533] (pkg_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:22:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSpawn\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.503639] (pkg_test_cpp) StderrLine: {'line': b'   22 |     auto teleport_request_ = std::make_shared<turtlesim::srv::\x1b[01;31m\x1b[KSpawn\x1b[m\x1b[K::Request>();\n'}
+[1.503726] (pkg_test_cpp) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.503808] (pkg_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:22:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[1.503886] (pkg_test_cpp) StderrLine: {'line': b'   22 |     auto teleport_request_ = std::\x1b[01;31m\x1b[Kmake_shared<turtlesim::srv::Spawn::Request>\x1b[m\x1b[K();\n'}
+[1.503965] (pkg_test_cpp) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.504043] (pkg_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:22:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.504120] (pkg_test_cpp) StderrLine: {'line': b'   22 |     auto teleport_request_ = \x1b[01;31m\x1b[Kstd::make_shared<turtlesim::srv::Spawn::Request>()\x1b[m\x1b[K;\n'}
+[1.504194] (pkg_test_cpp) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.504290] (pkg_test_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/condition_variable:43\x1b[m\x1b[K,\n'}
+[1.504370] (pkg_test_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:19\x1b[m\x1b[K,\n'}
+[1.504444] (pkg_test_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/include/pkg_test_cpp/turtlesim_service_server.hpp:4\x1b[m\x1b[K,\n'}
+[1.504518] (pkg_test_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:1\x1b[m\x1b[K:\n'}
+[1.504593] (pkg_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.504677] (pkg_test_cpp) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[1.504753] (pkg_test_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.504826] (pkg_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.504906] (pkg_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:22:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.504979] (pkg_test_cpp) StderrLine: {'line': b'   22 |     auto teleport_request_ = \x1b[01;31m\x1b[Kstd::make_shared<turtlesim::srv::Spawn::Request>()\x1b[m\x1b[K;\n'}
+[1.505053] (pkg_test_cpp) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.603566] (-) TimerEvent: {}
+[1.704011] (-) TimerEvent: {}
+[1.804338] (-) TimerEvent: {}
+[1.904709] (-) TimerEvent: {}
+[1.963301] (pkg_test_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim_service_server.dir/build.make:90: CMakeFiles/turtlesim_service_server.dir/src/turtlesim_service_server.cpp.o] Error 1\n'}
+[1.963507] (pkg_test_cpp) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.004860] (-) TimerEvent: {}
+[2.105306] (-) TimerEvent: {}
+[2.205626] (-) TimerEvent: {}
+[2.306078] (-) TimerEvent: {}
+[2.406453] (-) TimerEvent: {}
+[2.506812] (-) TimerEvent: {}
+[2.571964] (pkg_test_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/turtlesim_service_server.dir/all] Error 2\n'}
+[2.572166] (pkg_test_cpp) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.606983] (-) TimerEvent: {}
+[2.707373] (-) TimerEvent: {}
+[2.807770] (-) TimerEvent: {}
+[2.908161] (-) TimerEvent: {}
+[3.008474] (-) TimerEvent: {}
+[3.108864] (-) TimerEvent: {}
+[3.209278] (-) TimerEvent: {}
+[3.309601] (-) TimerEvent: {}
+[3.409990] (-) TimerEvent: {}
+[3.510404] (-) TimerEvent: {}
+[3.610804] (-) TimerEvent: {}
+[3.711200] (-) TimerEvent: {}
+[3.811585] (-) TimerEvent: {}
+[3.911912] (-) TimerEvent: {}
+[4.012255] (-) TimerEvent: {}
+[4.112617] (-) TimerEvent: {}
+[4.212941] (-) TimerEvent: {}
+[4.313283] (-) TimerEvent: {}
+[4.413542] (-) TimerEvent: {}
+[4.513840] (-) TimerEvent: {}
+[4.614132] (-) TimerEvent: {}
+[4.714474] (-) TimerEvent: {}
+[4.814784] (-) TimerEvent: {}
+[4.915114] (-) TimerEvent: {}
+[5.015310] (-) TimerEvent: {}
+[5.115525] (-) TimerEvent: {}
+[5.215758] (-) TimerEvent: {}
+[5.316080] (-) TimerEvent: {}
+[5.416404] (-) TimerEvent: {}
+[5.516647] (-) TimerEvent: {}
+[5.616965] (-) TimerEvent: {}
+[5.717302] (-) TimerEvent: {}
+[5.817608] (-) TimerEvent: {}
+[5.917938] (-) TimerEvent: {}
+[6.018254] (-) TimerEvent: {}
+[6.118556] (-) TimerEvent: {}
+[6.218855] (-) TimerEvent: {}
+[6.319144] (-) TimerEvent: {}
+[6.419399] (-) TimerEvent: {}
+[6.519614] (-) TimerEvent: {}
+[6.619931] (-) TimerEvent: {}
+[6.720248] (-) TimerEvent: {}
+[6.820593] (-) TimerEvent: {}
+[6.920879] (-) TimerEvent: {}
+[7.021205] (-) TimerEvent: {}
+[7.121601] (-) TimerEvent: {}
+[7.222004] (-) TimerEvent: {}
+[7.299870] (pkg_test_cpp) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_cmd_and_pose\x1b[0m\n'}
+[7.322160] (-) TimerEvent: {}
+[7.422599] (-) TimerEvent: {}
+[7.522991] (-) TimerEvent: {}
+[7.623394] (-) TimerEvent: {}
+[7.701518] (pkg_test_cpp) StdoutLine: {'line': b'[ 91%] Built target turtlesim_cmd_and_pose\n'}
+[7.702473] (pkg_test_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.704185] (pkg_test_cpp) CommandEnded: {'returncode': 2}
+[7.710437] (pkg_test_cpp) JobEnded: {'identifier': 'pkg_test_cpp', 'rc': 2}
+[7.721100] (-) EventReactorShutdown: {}

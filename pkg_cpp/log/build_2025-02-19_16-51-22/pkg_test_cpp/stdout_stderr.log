@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlesim_cmd_and_pose[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlesim_service_server[0m
+[ 25%] Built target turtlesim_publisher
+[ 50%] Built target turtlesim_cmd_and_pose
+[ 75%] Built target turtlesim_subscriber
+[ 83%] [32mBuilding CXX object CMakeFiles/turtlesim_service_server.dir/src/turtlesim_service_server.cpp.o[0m
+[01m[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimMultiSpawning::callback_service(std::shared_ptr<pkg_test_cpp_msg::srv::MultiSpawn_Request_<std::allocator<void> > >, std::shared_ptr<pkg_test_cpp_msg::srv::MultiSpawn_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:22:63:[m[K [01;31m[Kerror: [m[K‘[01m[KSpawn[m[K’ is not a member of ‘[01m[Kturtlesim::srv[m[K’
+   22 |     auto teleport_request_ = std::make_shared<turtlesim::srv::[01;31m[KSpawn[m[K::Request>();
+      |                                                               [01;31m[K^~~~~[m[K
+[01m[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:22:35:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   22 |     auto teleport_request_ = std::[01;31m[Kmake_shared<turtlesim::srv::Spawn::Request>[m[K();
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:22:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   22 |     auto teleport_request_ = [01;31m[Kstd::make_shared<turtlesim::srv::Spawn::Request>()[m[K;
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/condition_variable:43[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:19[m[K,
+                 from [01m[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/include/pkg_test_cpp/turtlesim_service_server.hpp:4[m[K,
+                 from [01m[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hycon/workspace/ros2_study/pkg_cpp/src/pkg_test_cpp/src/turtlesim_service_server.cpp:22:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |     auto teleport_request_ = [01;31m[Kstd::make_shared<turtlesim::srv::Spawn::Request>()[m[K;
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/turtlesim_service_server.dir/build.make:90: CMakeFiles/turtlesim_service_server.dir/src/turtlesim_service_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/turtlesim_service_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

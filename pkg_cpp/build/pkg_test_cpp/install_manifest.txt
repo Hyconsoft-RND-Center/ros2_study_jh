@@ -1,6 +1,7 @@
 /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/lib/pkg_test_cpp/turtlesim_subscriber
 /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/lib/pkg_test_cpp/turtlesim_publisher
 /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/lib/pkg_test_cpp/turtlesim_cmd_and_pose
+/home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/lib/pkg_test_cpp/turtlesim_service_server
 /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/ament_index/resource_index/package_run_dependencies/pkg_test_cpp
 /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/ament_index/resource_index/parent_prefix_path/pkg_test_cpp
 /home/hycon/workspace/ros2_study/pkg_cpp/install/pkg_test_cpp/share/pkg_test_cpp/environment/ament_prefix_path.sh

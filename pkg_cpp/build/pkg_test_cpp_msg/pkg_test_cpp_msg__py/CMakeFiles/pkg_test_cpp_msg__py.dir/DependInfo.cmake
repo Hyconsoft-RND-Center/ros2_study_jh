@@ -17,6 +17,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_py/pkg_test_cpp_msg/msg/__init__.py" "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_py/pkg_test_cpp_msg/msg/_cmd_and_pose_vel.py" "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_py/pkg_test_cpp_msg/msg/_cmd_and_pose_vel_s.c" "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_py/pkg_test_cpp_msg/srv/__init__.py" "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_py/pkg_test_cpp_msg/srv/_multi_spawn.py" "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_py/pkg_test_cpp_msg/srv/_multi_spawn_s.c" "/home/hycon/workspace/ros2_study/pkg_cpp/build/pkg_test_cpp_msg/rosidl_generator_py/pkg_test_cpp_msg/_pkg_test_cpp_msg_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 
