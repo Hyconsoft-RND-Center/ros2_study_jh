@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target turtlesim_service_server[0m
-[ 25%] Built target turtlesim_publisher
-[ 50%] Built target turtlesim_cmd_and_pose
-[ 58%] [32mBuilding CXX object CMakeFiles/turtlesim_service_server.dir/src/turtlesim_service_server.cpp.o[0m
-[ 83%] Built target turtlesim_subscriber

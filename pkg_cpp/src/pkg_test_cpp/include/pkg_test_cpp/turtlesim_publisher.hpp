@@ -1,9 +1,6 @@
 #ifndef TURTLESIM_PUBLISHER_HPP
 #define TURTLESIM_PUBLISHER_HPP
 
-#include <iostream>
-#include <chrono>
-
 #include "rclcpp/node.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 

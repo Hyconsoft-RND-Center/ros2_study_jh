@@ -8,6 +8,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclcpp_action REQUIRED)
 find_package(turtlesim REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(pkg_test_cpp_msg REQUIRED)
@@ -29,8 +30,14 @@ ament_target_dependencies(turtlesim_cmd_and_pose rclcpp turtlesim geometry_msgs 
 add_executable(turtlesim_service_server src/main_service_server.cpp src/turtlesim_service_server.cpp)
 ament_target_dependencies(turtlesim_service_server rclcpp pkg_test_cpp_msg turtlesim)
 
+add_executable(turtlesim_action_server  src/main_action_server.cpp src/turtlesim_action_server.cpp)
+ament_target_dependencies(turtlesim_action_server rclcpp pkg_test_cpp_msg rclcpp_action)
+
+add_executable(turtlesim_multi_thread src/main_multi_thread.cpp src/turtlesim_multi_thread.cpp src/turtlesim_publisher.cpp src/turtlesim_subscriber.cpp)
+ament_target_dependencies(turtlesim_multi_thread rclcpp pkg_test_cpp_msg geometry_msgs turtlesim)
+
 install(
-  TARGETS turtlesim_subscriber turtlesim_publisher turtlesim_cmd_and_pose turtlesim_service_server
+  TARGETS turtlesim_multi_thread turtlesim_subscriber turtlesim_publisher turtlesim_cmd_and_pose turtlesim_service_server turtlesim_action_server
   DESTINATION lib/${PROJECT_NAME}
 )
 
