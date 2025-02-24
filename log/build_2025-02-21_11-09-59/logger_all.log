@@ -1,0 +1,641 @@
+[0.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.064s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x719c1db54f10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x719c1dcd1c90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x719c1dcd1c90>>)
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.165s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hycon/workspace/hycon_git/ros2_study_jh'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/build) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/build) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/build) ignored
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/install) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/install) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/install) ignored
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/log) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/log) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/log) ignored
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'pkg_cpp/src/pkg_test_cpp' with type 'ros.ament_cmake' and name 'pkg_test_cpp'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp_msg) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp_msg) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp_msg) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp_msg) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp_msg) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp_msg) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp_msg) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_cpp/src/pkg_test_cpp_msg) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'pkg_cpp/src/pkg_test_cpp_msg' with type 'ros.ament_cmake' and name 'pkg_test_cpp_msg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/build) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/build) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/build) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/install) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/install) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/install) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/log) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/log) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/log) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/build) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/build) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/build) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/install) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/install) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/install) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/log) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/log) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/log) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_study/pkg_test/src/my_first_package' with type 'ros.ament_python' and name 'my_first_package'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package_msgs) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package_msgs) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package_msgs) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package_msgs) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package_msgs) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package_msgs) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package_msgs) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/pkg_test/src/my_first_package_msgs) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_study/pkg_test/src/my_first_package_msgs' with type 'ros.ament_cmake' and name 'my_first_package_msgs'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test/publisher_make_test) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test/publisher_make_test) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test/publisher_make_test) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test/publisher_make_test) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test/publisher_make_test) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test/publisher_make_test) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test/publisher_make_test) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test/publisher_make_test) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/publisher_test/publisher_make_test) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_study/publisher_test/publisher_make_test' with type 'ros.ament_cmake' and name 'publisher_make_test'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test/service_client_test) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test/service_client_test) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test/service_client_test) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test/service_client_test) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test/service_client_test) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test/service_client_test) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test/service_client_test) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test/service_client_test) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/service_client_test/service_client_test) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_study/service_client_test/service_client_test' with type 'ros.ament_cmake' and name 'service_client_test'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp/my_subscriber_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp/my_subscriber_pkg) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp/my_subscriber_pkg) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp/my_subscriber_pkg) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp/my_subscriber_pkg) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp/my_subscriber_pkg) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp/my_subscriber_pkg) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp/my_subscriber_pkg) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_study/subscriber_test/subscriber_node_cpp/my_subscriber_pkg) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_study/subscriber_test/subscriber_node_cpp/my_subscriber_pkg' with type 'ros.ament_cmake' and name 'my_subscriber_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.205s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/hycon/workspace/hycon_git/ros2_study_jh/install
+[0.206s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'my_first_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package', 'merge_install': False, 'path': '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/pkg_test/src/my_first_package', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package_msgs' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package_msgs' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_first_package_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'my_first_package_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs', 'merge_install': False, 'path': '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/pkg_test/src/my_first_package_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'my_subscriber_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_subscriber_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg', 'merge_install': False, 'path': '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/subscriber_test/subscriber_node_cpp/my_subscriber_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_test_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp', 'merge_install': False, 'path': '/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp_msg' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp_msg' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'pkg_test_cpp_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_test_cpp_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg', 'merge_install': False, 'path': '/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp_msg', 'symlink_install': False, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'publisher_make_test' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'publisher_make_test' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'publisher_make_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'publisher_make_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'publisher_make_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'publisher_make_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'publisher_make_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'publisher_make_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'publisher_make_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'publisher_make_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test', 'merge_install': False, 'path': '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/publisher_test/publisher_make_test', 'symlink_install': False, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'service_client_test' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'service_client_test' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'service_client_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'service_client_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'service_client_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'service_client_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'service_client_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'service_client_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'service_client_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'service_client_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hycon/workspace/hycon_git/ros2_study_jh/build/service_client_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test', 'merge_install': False, 'path': '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/service_client_test/service_client_test', 'symlink_install': False, 'test_result_base': None}
+[0.231s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.232s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.232s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/pkg_test/src/my_first_package' with build type 'ament_python'
+[0.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_package', 'ament_prefix_path')
+[0.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/share/my_first_package/hook/ament_prefix_path.ps1'
+[0.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/share/my_first_package/hook/ament_prefix_path.dsv'
+[0.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/share/my_first_package/hook/ament_prefix_path.sh'
+[0.235s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.237s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/pkg_test/src/my_first_package_msgs' with build type 'ament_cmake'
+[0.237s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/pkg_test/src/my_first_package_msgs'
+[0.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.239s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/subscriber_test/subscriber_node_cpp/my_subscriber_pkg' with build type 'ament_cmake'
+[0.239s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/subscriber_test/subscriber_node_cpp/my_subscriber_pkg'
+[0.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.241s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp' with build type 'ament_cmake'
+[0.241s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp'
+[0.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.244s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp_msg' with build type 'ament_cmake'
+[0.244s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp_msg'
+[0.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/publisher_test/publisher_make_test' with build type 'ament_cmake'
+[0.246s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/publisher_test/publisher_make_test'
+[0.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.248s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/service_client_test/service_client_test' with build type 'ament_cmake'
+[0.248s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/service_client_test/service_client_test'
+[0.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.424s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/pkg_test/src/my_first_package'
+[0.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package_msgs -- -j16 -l16
+[0.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_subscriber_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/my_subscriber_pkg -- -j16 -l16
+[0.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp -- -j16 -l16
+[0.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp_msg -- -j16 -l16
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test -- -j16 -l16
+[0.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/service_client_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/service_client_test -- -j16 -l16
+[0.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_subscriber_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/my_subscriber_pkg -- -j16 -l16
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_subscriber_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/hycon_git/ros2_study_jh/build/my_subscriber_pkg
+[0.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test -- -j16 -l16
+[0.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test
+[0.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_subscriber_pkg)
+[0.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_subscriber_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/hycon_git/ros2_study_jh/build/my_subscriber_pkg
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg' for CMake module files
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg' for CMake config files
+[0.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_subscriber_pkg', 'cmake_prefix_path')
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/hook/cmake_prefix_path.ps1'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/hook/cmake_prefix_path.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/hook/cmake_prefix_path.sh'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/lib'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/bin'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/lib/pkgconfig/my_subscriber_pkg.pc'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/lib/python3.10/site-packages'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/bin'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/package.ps1'
+[0.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/package.dsv'
+[0.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/package.sh'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/package.bash'
+[0.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/package.zsh'
+[0.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/colcon-core/packages/my_subscriber_pkg)
+[0.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_subscriber_pkg)
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg' for CMake module files
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg' for CMake config files
+[0.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_subscriber_pkg', 'cmake_prefix_path')
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/hook/cmake_prefix_path.ps1'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/hook/cmake_prefix_path.dsv'
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/hook/cmake_prefix_path.sh'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/lib'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/bin'
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/lib/pkgconfig/my_subscriber_pkg.pc'
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/lib/python3.10/site-packages'
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/bin'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/package.ps1'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/package.dsv'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/package.sh'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/package.bash'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/my_subscriber_pkg/package.zsh'
+[0.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_subscriber_pkg/share/colcon-core/packages/my_subscriber_pkg)
+[0.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publisher_make_test)
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test' for CMake module files
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test' for CMake config files
+[0.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher_make_test', 'cmake_prefix_path')
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/hook/cmake_prefix_path.ps1'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/hook/cmake_prefix_path.dsv'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/hook/cmake_prefix_path.sh'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/lib'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/bin'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/lib/pkgconfig/publisher_make_test.pc'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/lib/python3.10/site-packages'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/bin'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/package.ps1'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/package.dsv'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/package.sh'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/package.bash'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/package.zsh'
+[0.558s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/colcon-core/packages/publisher_make_test)
+[0.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publisher_make_test)
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test' for CMake module files
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test' for CMake config files
+[0.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher_make_test', 'cmake_prefix_path')
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/hook/cmake_prefix_path.ps1'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/hook/cmake_prefix_path.dsv'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/hook/cmake_prefix_path.sh'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/lib'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/bin'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/lib/pkgconfig/publisher_make_test.pc'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/lib/python3.10/site-packages'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/bin'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/package.ps1'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/package.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/package.sh'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/package.bash'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/package.zsh'
+[0.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/colcon-core/packages/publisher_make_test)
+[0.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/service_client_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/service_client_test -- -j16 -l16
+[0.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/service_client_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/hycon_git/ros2_study_jh/build/service_client_test
+[0.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_client_test)
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test' for CMake module files
+[0.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/service_client_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/hycon_git/ros2_study_jh/build/service_client_test
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test' for CMake config files
+[0.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_client_test', 'cmake_prefix_path')
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/hook/cmake_prefix_path.ps1'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/hook/cmake_prefix_path.dsv'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/hook/cmake_prefix_path.sh'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/lib'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/bin'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/lib/pkgconfig/service_client_test.pc'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/lib/python3.10/site-packages'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/bin'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/package.ps1'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/package.dsv'
+[0.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/package.sh'
+[0.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/package.bash'
+[0.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/package.zsh'
+[0.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/colcon-core/packages/service_client_test)
+[0.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_client_test)
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test' for CMake module files
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test' for CMake config files
+[0.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_client_test', 'cmake_prefix_path')
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/hook/cmake_prefix_path.ps1'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/hook/cmake_prefix_path.dsv'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/hook/cmake_prefix_path.sh'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/lib'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/bin'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/lib/pkgconfig/service_client_test.pc'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/lib/python3.10/site-packages'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/bin'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/package.ps1'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/package.dsv'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/package.sh'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/package.bash'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/service_client_test/package.zsh'
+[0.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hycon/workspace/hycon_git/ros2_study_jh/install/service_client_test/share/colcon-core/packages/service_client_test)
+[0.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/pkg_test/src/my_first_package': PYTHONPATH=/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/my_first_package build --build-base /home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package/build install --record /home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package/install.log --single-version-externally-managed install_data
+[0.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package_msgs -- -j16 -l16
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package_msgs
+[0.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp_msg -- -j16 -l16
+[0.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp_msg
+[0.841s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_package_msgs)
+[0.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package_msgs
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs' for CMake module files
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs' for CMake config files
+[0.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_package_msgs', 'cmake_prefix_path')
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/hook/cmake_prefix_path.ps1'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/hook/cmake_prefix_path.dsv'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/hook/cmake_prefix_path.sh'
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/lib'
+[0.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_package_msgs', 'ld_library_path_lib')
+[0.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/hook/ld_library_path_lib.ps1'
+[0.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/hook/ld_library_path_lib.dsv'
+[0.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/hook/ld_library_path_lib.sh'
+[0.847s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/bin'
+[0.847s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/lib/pkgconfig/my_first_package_msgs.pc'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/lib/python3.10/site-packages'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/bin'
+[0.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/package.ps1'
+[0.849s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/package.dsv'
+[0.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/package.sh'
+[0.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/package.bash'
+[0.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/package.zsh'
+[0.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/colcon-core/packages/my_first_package_msgs)
+[0.852s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_package_msgs)
+[0.852s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs' for CMake module files
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs' for CMake config files
+[0.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_package_msgs', 'cmake_prefix_path')
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/hook/cmake_prefix_path.ps1'
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/hook/cmake_prefix_path.dsv'
+[0.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/hook/cmake_prefix_path.sh'
+[0.856s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/lib'
+[0.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_package_msgs', 'ld_library_path_lib')
+[0.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/hook/ld_library_path_lib.ps1'
+[0.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/hook/ld_library_path_lib.dsv'
+[0.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/hook/ld_library_path_lib.sh'
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/bin'
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/lib/pkgconfig/my_first_package_msgs.pc'
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/lib/python3.10/site-packages'
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/bin'
+[0.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/package.ps1'
+[0.859s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/package.dsv'
+[0.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/package.sh'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/package.bash'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/my_first_package_msgs/package.zsh'
+[0.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package_msgs/share/colcon-core/packages/my_first_package_msgs)
+[0.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_test_cpp_msg)
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg' for CMake module files
+[0.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp_msg
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg' for CMake config files
+[0.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_test_cpp_msg', 'cmake_prefix_path')
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/hook/cmake_prefix_path.ps1'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/hook/cmake_prefix_path.dsv'
+[0.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/hook/cmake_prefix_path.sh'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/lib'
+[0.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_test_cpp_msg', 'ld_library_path_lib')
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/hook/ld_library_path_lib.ps1'
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/hook/ld_library_path_lib.dsv'
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/hook/ld_library_path_lib.sh'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/bin'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/lib/pkgconfig/pkg_test_cpp_msg.pc'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/lib/python3.10/site-packages'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/bin'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/package.ps1'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/package.dsv'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/package.sh'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/package.bash'
+[0.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/package.zsh'
+[0.881s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/colcon-core/packages/pkg_test_cpp_msg)
+[0.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_test_cpp_msg)
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg' for CMake module files
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg' for CMake config files
+[0.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_test_cpp_msg', 'cmake_prefix_path')
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/hook/cmake_prefix_path.ps1'
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/hook/cmake_prefix_path.dsv'
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/hook/cmake_prefix_path.sh'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/lib'
+[0.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_test_cpp_msg', 'ld_library_path_lib')
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/hook/ld_library_path_lib.ps1'
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/hook/ld_library_path_lib.dsv'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/hook/ld_library_path_lib.sh'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/bin'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/lib/pkgconfig/pkg_test_cpp_msg.pc'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/lib/python3.10/site-packages'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/bin'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/package.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/package.dsv'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/package.sh'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/package.bash'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/pkg_test_cpp_msg/package.zsh'
+[0.892s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp_msg/share/colcon-core/packages/pkg_test_cpp_msg)
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package' for CMake module files
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/ros2_study/pkg_test/src/my_first_package' returned '0': PYTHONPATH=/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/my_first_package build --build-base /home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package/build install --record /home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package/install.log --single-version-externally-managed install_data
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package' for CMake config files
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/lib'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/bin'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/lib/pkgconfig/my_first_package.pc'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/lib/python3.10/site-packages'
+[1.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_package', 'pythonpath')
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/share/my_first_package/hook/pythonpath.ps1'
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/share/my_first_package/hook/pythonpath.dsv'
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/share/my_first_package/hook/pythonpath.sh'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/bin'
+[1.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_package)
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/share/my_first_package/package.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/share/my_first_package/package.dsv'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/share/my_first_package/package.sh'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/share/my_first_package/package.bash'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/share/my_first_package/package.zsh'
+[1.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package/share/colcon-core/packages/my_first_package)
+[2.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_test_cpp)
+[2.629s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp' for CMake module files
+[2.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp -- -j16 -l16
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp' for CMake config files
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp/bin'
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp/lib/pkgconfig/pkg_test_cpp.pc'
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp/lib/python3.10/site-packages'
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp/bin'
+[2.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp/share/pkg_test_cpp/package.ps1'
+[2.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp/share/pkg_test_cpp/package.dsv'
+[2.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp/share/pkg_test_cpp/package.sh'
+[2.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp/share/pkg_test_cpp/package.bash'
+[2.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp/share/pkg_test_cpp/package.zsh'
+[2.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hycon/workspace/hycon_git/ros2_study_jh/install/pkg_test_cpp/share/colcon-core/packages/pkg_test_cpp)
+[2.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.642s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.647s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.647s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.647s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.656s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.657s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/local_setup.ps1'
+[2.658s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hycon/workspace/hycon_git/ros2_study_jh/install/_local_setup_util_ps1.py'
+[2.659s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/setup.ps1'
+[2.661s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/local_setup.sh'
+[2.661s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hycon/workspace/hycon_git/ros2_study_jh/install/_local_setup_util_sh.py'
+[2.661s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/setup.sh'
+[2.662s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/local_setup.bash'
+[2.662s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/setup.bash'
+[2.663s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/local_setup.zsh'
+[2.663s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hycon/workspace/hycon_git/ros2_study_jh/install/setup.zsh'

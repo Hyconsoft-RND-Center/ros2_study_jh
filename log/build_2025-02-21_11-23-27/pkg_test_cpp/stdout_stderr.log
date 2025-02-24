@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlesim_action_server[0m
+[ 20%] Built target turtlesim_cmd_and_pose
+[ 40%] Built target turtlesim_subscriber
+[ 60%] Built target turtlesim_service_server
+[ 80%] Built target turtlesim_publisher
+[ 86%] [32mBuilding CXX object CMakeFiles/turtlesim_action_server.dir/src/turtlesim_action_server.cpp.o[0m
+[01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimActionServer::execute_callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<pkg_test_cpp_msg::action::DistTurtle> >)[m[K’:
+[01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:28:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoal_handle_[m[K’?
+   28 |             [01;31m[Kgoal_handle[m[K->publish_feedback(feedback_msg);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[Kgoal_handle_[m[K
+[01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:29:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TurtlesimActionServer[m[K’ has no member named ‘[01m[Klogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+   29 |             RCL_INFO(this->[01;31m[Klogger[m[K(), "Feddback : remined_dist = %.2f", feedback_msg->remined_dist);
+      |                            [01;31m[K^~~~~~[m[K
+      |                            [32m[Kget_logger[m[K
+[01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[KRCL_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO[m[K’?
+   29 |             [01;31m[KRCL_INFO[m[K(this->logger(), "Feddback : remined_dist = %.2f", feedback_msg->remined_dist);
+      |             [01;31m[K^~~~~~~~[m[K
+      |             [32m[KRCLCPP_INFO[m[K
+gmake[2]: *** [CMakeFiles/turtlesim_action_server.dir/build.make:90: CMakeFiles/turtlesim_action_server.dir/src/turtlesim_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/turtlesim_action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,24 @@
+[0.008s] Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp -- -j16 -l16
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_action_server[0m
+[0.070s] [ 20%] Built target turtlesim_cmd_and_pose
+[0.083s] [ 40%] Built target turtlesim_subscriber
+[0.084s] [ 60%] Built target turtlesim_service_server
+[0.087s] [ 80%] Built target turtlesim_publisher
+[0.101s] [ 86%] [32mBuilding CXX object CMakeFiles/turtlesim_action_server.dir/src/turtlesim_action_server.cpp.o[0m
+[1.091s] [01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimActionServer::execute_callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<pkg_test_cpp_msg::action::DistTurtle> >)[m[K’:
+[1.091s] [01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:28:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoal_handle_[m[K’?
+[1.092s]    28 |             [01;31m[Kgoal_handle[m[K->publish_feedback(feedback_msg);
+[1.092s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.092s]       |             [32m[Kgoal_handle_[m[K
+[1.092s] [01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:29:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TurtlesimActionServer[m[K’ has no member named ‘[01m[Klogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[1.092s]    29 |             RCL_INFO(this->[01;31m[Klogger[m[K(), "Feddback : remined_dist = %.2f", feedback_msg->remined_dist);
+[1.092s]       |                            [01;31m[K^~~~~~[m[K
+[1.092s]       |                            [32m[Kget_logger[m[K
+[1.095s] [01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[KRCL_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO[m[K’?
+[1.096s]    29 |             [01;31m[KRCL_INFO[m[K(this->logger(), "Feddback : remined_dist = %.2f", feedback_msg->remined_dist);
+[1.096s]       |             [01;31m[K^~~~~~~~[m[K
+[1.096s]       |             [32m[KRCLCPP_INFO[m[K
+[1.554s] gmake[2]: *** [CMakeFiles/turtlesim_action_server.dir/build.make:90: CMakeFiles/turtlesim_action_server.dir/src/turtlesim_action_server.cpp.o] Error 1
+[1.555s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/turtlesim_action_server.dir/all] Error 2
+[1.555s] gmake: *** [Makefile:146: all] Error 2
+[1.557s] Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp -- -j16 -l16

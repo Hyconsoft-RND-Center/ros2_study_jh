@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlesim_action_server[0m
+[ 20%] Built target turtlesim_publisher
+[ 40%] Built target turtlesim_cmd_and_pose
+[ 80%] Built target turtlesim_subscriber
+[ 80%] Built target turtlesim_service_server
+[ 86%] [32mBuilding CXX object CMakeFiles/turtlesim_action_server.dir/src/turtlesim_action_server.cpp.o[0m
+gmake[2]: *** [CMakeFiles/turtlesim_action_server.dir/build.make:90: CMakeFiles/turtlesim_action_server.dir/src/turtlesim_action_server.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/turtlesim_action_server.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

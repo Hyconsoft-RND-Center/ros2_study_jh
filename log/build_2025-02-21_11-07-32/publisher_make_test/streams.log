@@ -1,0 +1,4 @@
+[0.209s] Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test -- -j16 -l16
+[0.280s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o[0m
+[3.763s] [100%] [32m[1mLinking CXX executable publisher_node[0m
+[3.910s] [100%] Built target publisher_node

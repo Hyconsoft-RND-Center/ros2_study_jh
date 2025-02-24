@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlesim_action_server[0m
+[ 20%] Built target turtlesim_publisher
+[ 40%] Built target turtlesim_service_server
+[ 60%] Built target turtlesim_cmd_and_pose
+[ 80%] Built target turtlesim_subscriber
+[ 86%] [32mBuilding CXX object CMakeFiles/turtlesim_action_server.dir/src/turtlesim_action_server.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/turtlesim_action_server.dir/src/main_action_server.cpp.o[0m
+[01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:[m[K In constructor ‘[01m[KTurtlesimActionServer::TurtlesimActionServer()[m[K’:
+[01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:4:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+    4 |     action_server_ = rclcpp[01;31m[K.[m[Kaction::create_server<DistTurtle>(
+      |                            [01;31m[K^[m[K
+[01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:4:29:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kaction[m[K’ in non-class type ‘[01m[K<type error>[m[K’
+    4 |     action_server_ = rclcpp.[01;31m[Kaction[m[K::create_server<DistTurtle>(
+      |                             [01;31m[K^~~~~~[m[K
+[01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:4:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    4 |     action_server_ = rclcpp.action::create_server<DistTurtle[01;31m[K>[m[K(
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:5:9:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+    5 |         [01;35m[Kthis[m[K,
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:9:9:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+    9 |         [01;35m[K}[m[K,
+      |         [01;35m[K^[m[K
+[01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimActionServer::execute_callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<pkg_test_cpp_msg::action::DistTurtle> >)[m[K’:
+[01m[K/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp/src/turtlesim_action_server.cpp:24:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ServerGoalHandle<pkg_test_cpp_msg::action::DistTurtle>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ServerGoalHandle<pkg_test_cpp_msg::action::DistTurtle>[m[K’} has no member named ‘[01m[Ksucced[m[K’; did you mean ‘[01m[Ksucceed[m[K’?
+   24 |         goal_handle->[01;31m[Ksucced[m[K();
+      |                      [01;31m[K^~~~~~[m[K
+      |                      [32m[Ksucceed[m[K
+gmake[2]: *** [CMakeFiles/turtlesim_action_server.dir/build.make:90: CMakeFiles/turtlesim_action_server.dir/src/turtlesim_action_server.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/turtlesim_action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

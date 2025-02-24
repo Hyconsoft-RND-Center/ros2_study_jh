@@ -1,0 +1,22 @@
+[0.186s] Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test -- -j16 -l16
+[0.301s] [100%] Built target publisher_node
+[0.319s] Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test -- -j16 -l16
+[0.328s] Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test
+[0.335s] -- Install configuration: ""
+[0.335s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/lib/publisher_make_test/publisher_node
+[0.335s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/ament_index/resource_index/package_run_dependencies/publisher_make_test
+[0.335s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/ament_index/resource_index/parent_prefix_path/publisher_make_test
+[0.335s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/environment/ament_prefix_path.sh
+[0.335s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/environment/ament_prefix_path.dsv
+[0.335s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/environment/path.sh
+[0.336s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/environment/path.dsv
+[0.336s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/local_setup.bash
+[0.336s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/local_setup.sh
+[0.336s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/local_setup.zsh
+[0.336s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/local_setup.dsv
+[0.336s] -- Installing: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/package.dsv
+[0.336s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/ament_index/resource_index/packages/publisher_make_test
+[0.336s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/cmake/publisher_make_testConfig.cmake
+[0.336s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/cmake/publisher_make_testConfig-version.cmake
+[0.336s] -- Up-to-date: /home/hycon/workspace/hycon_git/ros2_study_jh/install/publisher_make_test/share/publisher_make_test/package.xml
+[0.342s] Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hycon/workspace/hycon_git/ros2_study_jh/build/publisher_make_test

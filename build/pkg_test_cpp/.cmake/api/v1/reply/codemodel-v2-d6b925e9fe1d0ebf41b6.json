@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bfd8cd6cab63e8bf9b8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pkg_test_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_test_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_test_cpp_uninstall-ea2dd411045f92fa2b91.json",
+					"name" : "pkg_test_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_action_server-49c18ee52fc25a418de5.json",
+					"name" : "turtlesim_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_cmd_and_pose::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_cmd_and_pose-ff210fe51195047b2c11.json",
+					"name" : "turtlesim_cmd_and_pose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_publisher-1600cc551f067a8af821.json",
+					"name" : "turtlesim_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_service_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_service_server-37859a97b07c38122202.json",
+					"name" : "turtlesim_service_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_subscriber-971ad417334f4635668d.json",
+					"name" : "turtlesim_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a3f951bbc69af5ef4e40.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp",
+		"source" : "/home/hycon/workspace/hycon_git/ros2_study_jh/pkg_cpp/src/pkg_test_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

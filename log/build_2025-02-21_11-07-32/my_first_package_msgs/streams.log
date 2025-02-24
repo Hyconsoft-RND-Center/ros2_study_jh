@@ -1,0 +1,64 @@
+[0.205s] Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/my_first_package_msgs -- -j16 -l16
+[0.278s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.295s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.305s] [  5%] Built target ament_cmake_python_copy_my_first_package_msgs
+[0.539s] [  5%] Built target my_first_package_msgs__cpp
+[0.547s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.551s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.551s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.624s] running egg_info
+[0.625s] creating my_first_package_msgs.egg-info
+[0.625s] writing my_first_package_msgs.egg-info/PKG-INFO
+[0.626s] writing dependency_links to my_first_package_msgs.egg-info/dependency_links.txt
+[0.626s] writing top-level names to my_first_package_msgs.egg-info/top_level.txt
+[0.627s] writing manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[0.631s] reading manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[0.631s] writing manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[0.667s] [ 15%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__functions.c.o[0m
+[0.668s] [ 17%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.c.o[0m
+[0.684s] [ 17%] Built target ament_cmake_python_build_my_first_package_msgs_egg
+[0.740s] [ 20%] [32m[1mLinking C shared library libmy_first_package_msgs__rosidl_generator_c.so[0m
+[0.785s] [ 20%] Built target my_first_package_msgs__rosidl_generator_c
+[0.799s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.799s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.804s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.833s] [ 30%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_package_msgs/msg/detail/dds_fastrtps/cmd_and_pose_vel__type_support.cpp.o[0m
+[0.837s] [ 33%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_package_msgs/srv/detail/dds_fastrtps/multi_spawn__type_support.cpp.o[0m
+[0.922s] [ 35%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o[0m
+[0.923s] [ 38%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o[0m
+[0.956s] [ 41%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_package_msgs/srv/detail/multi_spawn__type_support.cpp.o[0m
+[0.956s] [ 43%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp.o[0m
+[1.177s] [ 46%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o[0m
+[1.177s] [ 48%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o[0m
+[1.220s] [ 51%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_c.so[0m
+[1.229s] [ 56%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_package_msgs/srv/detail/multi_spawn__type_support.c.o[0m
+[1.229s] [ 56%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c.o[0m
+[1.248s] [ 58%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support_c.cpp.o[0m
+[1.249s] [ 61%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_package_msgs/srv/detail/multi_spawn__type_support_c.cpp.o[0m
+[1.272s] [ 61%] Built target my_first_package_msgs__rosidl_typesupport_c
+[1.276s] [ 64%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_cpp.so[0m
+[1.290s] [ 66%] [32m[1mLinking C shared library libmy_first_package_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.320s] [ 66%] Built target my_first_package_msgs__rosidl_typesupport_cpp
+[1.323s] [ 66%] Built target my_first_package_msgs__rosidl_typesupport_introspection_c
+[1.404s] [ 69%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.478s] [ 69%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_cpp
+[1.499s] [ 71%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.583s] [ 71%] Built target my_first_package_msgs__rosidl_typesupport_introspection_cpp
+[1.679s] [ 74%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.743s] [ 74%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_c
+[1.764s] [ 74%] Built target my_first_package_msgs
+[1.787s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.098s] [ 76%] Built target my_first_package_msgs__py
+[2.121s] [ 79%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_first_package_msgs/msg/_cmd_and_pose_vel_s.c.o[0m
+[2.122s] [ 82%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_first_package_msgs/srv/_multi_spawn_s.c.o[0m
+[2.240s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/my_first_package_msgs/libmy_first_package_msgs__rosidl_generator_py.so[0m
+[2.281s] [ 84%] Built target my_first_package_msgs__rosidl_generator_py
+[2.301s] [ 87%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.305s] [ 92%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.305s] [ 92%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.378s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.413s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.415s] [ 97%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.416s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.452s] [100%] Built target my_first_package_msgs__rosidl_typesupport_c__pyext
+[2.454s] [100%] Built target my_first_package_msgs__rosidl_typesupport_introspection_c__pyext

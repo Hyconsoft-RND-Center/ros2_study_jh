@@ -1,0 +1,4 @@
+[0.214s] Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/service_client_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/service_client_test -- -j16 -l16
+[0.299s] [ 50%] [32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o[0m
+[3.318s] [100%] [32m[1mLinking CXX executable service_client[0m
+[3.445s] [100%] Built target service_client

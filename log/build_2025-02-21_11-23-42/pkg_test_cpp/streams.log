@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp -- -j16 -l16
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_action_server[0m
+[0.130s] [ 20%] Built target turtlesim_publisher
+[0.130s] [ 40%] Built target turtlesim_cmd_and_pose
+[0.133s] [ 80%] Built target turtlesim_subscriber
+[0.133s] [ 80%] Built target turtlesim_service_server
+[0.143s] [ 86%] [32mBuilding CXX object CMakeFiles/turtlesim_action_server.dir/src/turtlesim_action_server.cpp.o[0m
+[0.824s] gmake[2]: *** [CMakeFiles/turtlesim_action_server.dir/build.make:90: CMakeFiles/turtlesim_action_server.dir/src/turtlesim_action_server.cpp.o] Interrupt
+[0.824s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/turtlesim_action_server.dir/all] Interrupt
+[0.824s] gmake: *** [Makefile:146: all] Interrupt
+[0.831s] Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hycon/workspace/hycon_git/ros2_study_jh/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp -- -j16 -l16
