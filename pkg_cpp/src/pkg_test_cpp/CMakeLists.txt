@@ -37,8 +37,17 @@ ament_target_dependencies(turtlesim_action_server rcl_interfaces rclcpp pkg_test
 add_executable(turtlesim_multi_thread src/main_multi_thread.cpp src/turtlesim_multi_thread.cpp src/turtlesim_publisher.cpp src/turtlesim_subscriber.cpp)
 ament_target_dependencies(turtlesim_multi_thread rclcpp pkg_test_cpp_msg geometry_msgs turtlesim)
 
+add_executable(turtlesim_service_client src/turtlesim_service_client.cpp src/main_service_client.cpp)
+ament_target_dependencies(turtlesim_service_client rclcpp turtlesim)
+
 install(
-  TARGETS turtlesim_multi_thread turtlesim_subscriber turtlesim_publisher turtlesim_cmd_and_pose turtlesim_service_server turtlesim_action_server
+  TARGETS turtlesim_multi_thread
+  turtlesim_subscriber 
+  turtlesim_publisher 
+  turtlesim_cmd_and_pose 
+  turtlesim_service_server 
+  turtlesim_action_server 
+  turtlesim_service_client
   DESTINATION lib/${PROJECT_NAME}
 )
 
