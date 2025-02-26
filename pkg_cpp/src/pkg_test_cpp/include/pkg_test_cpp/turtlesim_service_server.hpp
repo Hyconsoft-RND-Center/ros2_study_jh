@@ -2,11 +2,9 @@
 #define TURTLESIM_SERVICE_SERVER_HPP
 
 #include "rclcpp/node.hpp"
-#include "turtlesim/srv/teleport_absolute.hpp"
 #include "turtlesim/srv/spawn.hpp"
 #include <vector>
 #include <cmath>
-#include <iostream>
 
 #include "pkg_test_cpp_msg/srv/multi_spawn.hpp"
 
@@ -26,7 +24,6 @@ class TurtlesimMultiSpawning : public rclcpp::Node {
 
         rclcpp::Service<pkg_test_cpp_msg::srv::MultiSpawn>::SharedPtr server_;
         rclcpp::Client<turtlesim::srv::Spawn>::SharedPtr spawn_client_;
-        rclcpp::Client<turtlesim::srv::TeleportAbsolute>::SharedPtr teleport_client_;
 
         double center_x_ = 5.54;
         double center_y_ = 5.54;

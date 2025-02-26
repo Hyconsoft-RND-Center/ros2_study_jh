@@ -5,7 +5,6 @@ TurtlesimMultiSpawning::TurtlesimMultiSpawning() : Node("mult_spawn") {
         "multi_spawn", std::bind(&TurtlesimMultiSpawning::callback_service, this, std::placeholders::_1, std::placeholders::_2)
     );
 
-    teleport_client_ = this->create_client<turtlesim::srv::TeleportAbsolute>("turtle1/teleport_absolute");
     spawn_client_ = this->create_client<turtlesim::srv::Spawn>("/spawn");
 
     RCLCPP_INFO(this->get_logger(), "TurtlesimMultiSpawning service node has started.");
