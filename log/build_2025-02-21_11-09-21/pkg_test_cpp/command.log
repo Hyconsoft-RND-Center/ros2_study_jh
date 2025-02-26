@@ -1,2 +1,0 @@
-Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp -- -j16 -l16
-Invoked command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/pkg_test_cpp -- -j16 -l16

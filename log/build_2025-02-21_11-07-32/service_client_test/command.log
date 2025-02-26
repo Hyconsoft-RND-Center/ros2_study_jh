@@ -1,1 +1,0 @@
-Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/service_client_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/service_client_test -- -j16 -l16

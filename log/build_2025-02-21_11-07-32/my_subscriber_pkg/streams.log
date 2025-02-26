@@ -1,4 +1,0 @@
-[0.204s] Invoking command in '/home/hycon/workspace/hycon_git/ros2_study_jh/build/my_subscriber_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hycon/workspace/hycon_git/ros2_study_jh/build/my_subscriber_pkg -- -j16 -l16
-[0.291s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
-[6.245s] [100%] [32m[1mLinking CXX executable subscriber_node[0m
-[6.519s] [100%] Built target subscriber_node
